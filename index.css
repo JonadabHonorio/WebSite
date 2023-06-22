@@ -38,9 +38,6 @@ section {
     
 }
 
-header {
-    
-}
 
 #nome {
     font-size: 30px;
@@ -48,8 +45,8 @@ header {
 }
 
 #avatar {
-    height:200px;
-    width:200px;
+    height: 190px;
+    width: 190px;
     border-radius: 50%;
     border: 5px solid #FF6000;
     
