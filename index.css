@@ -15,14 +15,13 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }                                                    /* RESET.CSS */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Pathway Extreme', sans-serif;
     color: #F0F0F0;
     background-color: #213363;
     height: 100vh;
