@@ -102,16 +102,30 @@ body {
 }
 
 main {
-    background-color: #726565;
+  /*  background-color: #726565; */
     width: 77%;
     height: 100%;
-    margin-left: 21%;
-      
+    margin-left: 21%;    
 }
 
 #sobre {
 background-color: #8d1c1c;
-height:40%;
+height:35%;
 padding: 20px 20px 0px 20px;
-
 } 
+
+h1 {
+    font-size: 40px;
+    margin: 30px 10px 5px 25px;
+
+}
+
+#subtitulo {
+    font-size: 23px;
+    margin: 10px 10px 10px 25px;
+}
+
+#conteudo_sobre {
+    font-size: 18px;
+    margin: 25px 10px 10px 25px;
+}
