@@ -23,7 +23,7 @@ time, mark, audio, video {
 body {
     font-family: 'Pathway Extreme', sans-serif;
     color: #F0F0F0;
-    background-color: #213363;
+    background-color: #0D1117;
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
@@ -47,8 +47,7 @@ body {
     border-radius: 10px;    
 }
 
-
-#nome {
+#nome_menu {
     font-size: 30px;
     padding-top: 10px;
 }
@@ -108,13 +107,13 @@ main {
     margin-left: 21%;    
 }
 
-#sobre {
-background-color: #8d1c1c;
+#Sobre {
+background-color: #585353;
 height:35%;
-padding: 20px 20px 0px 20px;
+padding: 20px 20px 0px 5px;
 } 
 
-h1 {
+#nome_main {
     font-size: 40px;
     margin: 30px 10px 5px 25px;
 
@@ -126,6 +125,22 @@ h1 {
 }
 
 #conteudo_sobre {
+    font-size: 18px;
+    margin: 25px 10px 10px 25px;
+}
+
+#Formação {
+    background-color: #454545;
+    height:35%;
+    padding: 20px 20px 0px 5px;
+}
+
+#titulo_formação {
+    font-size: 30px;
+    margin: 10px 10px 10px 25px;
+}
+
+#conteudo_formação {
     font-size: 18px;
     margin: 25px 10px 10px 25px;
 }
