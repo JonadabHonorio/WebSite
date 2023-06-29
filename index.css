@@ -111,15 +111,16 @@ main {
 background-color: #585353;
 height:35%;
 padding: 20px 20px 0px 5px;
+
 } 
 
-#nome_main {
+#nome_introdução {
     font-size: 40px;
     margin: 30px 10px 5px 25px;
 
 }
 
-#subtitulo {
+#subtitulo_introdução {
     font-size: 23px;
     margin: 10px 10px 10px 25px;
 }
@@ -127,6 +128,15 @@ padding: 20px 20px 0px 5px;
 #conteudo_introdução {
     font-size: 18px;
     margin: 25px 10px 10px 25px;
+}
+
+#foto_introdução {
+    height: 200px;
+    width: 200px;
+    float: right;
+      
+    
+    
 }
 
 #Formação {
