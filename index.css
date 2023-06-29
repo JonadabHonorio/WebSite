@@ -30,14 +30,14 @@ body {
     
 }
 
-#container {
+#Container {
     padding: 10px;
     height: inherit;
     width: inherit;
 
 }
 
-#menu {
+#Menu {
     position: fixed;
     background-color: #454545;
     width: 15%;
@@ -108,35 +108,36 @@ main {
 }
 
 #Introdução {
-background-color: #585353;
-height:35%;
-padding: 20px 20px 0px 5px;
+    background-color: #585353;
+    height:35%;
+    padding: 20px 20px 0px 5px;
+    text-align: left;
+    
 
 } 
 
 #nome_introdução {
     font-size: 40px;
-    margin: 30px 10px 5px 25px;
+    
 
 }
 
 #subtitulo_introdução {
     font-size: 23px;
-    margin: 10px 10px 10px 25px;
+    
 }
 
 #conteudo_introdução {
     font-size: 18px;
-    margin: 25px 10px 10px 25px;
+    
 }
 
 #foto_introdução {
-    height: 200px;
-    width: 200px;
-    float: right;
-      
+    height: 400px;
+    width: 400px;   
+    float: right;   
     
-    
+  
 }
 
 #Formação {
