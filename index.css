@@ -118,7 +118,7 @@ main {
             
 }
 
-#div_conteudo_introdução {
+#container_conteudo_introdução {
     height: 100%;
     margin-top: 50px;
     
@@ -141,7 +141,7 @@ main {
     
 }
 
-#div_img_introdução {   
+#container_img_introdução {   
     width: 500px;
     height:500px;
     
@@ -154,7 +154,7 @@ main {
 }
 
 #Formação {
- /*   background-color: #454545; */
+    background-color: #454545; 
     height:35%;
     padding: 20px 20px 20px 30px;
 }
@@ -174,7 +174,7 @@ main {
     margin: 10px 10px 10px 20px;
 }
 
-#conteudo_formação {
+#container_conteudo_formação {
     font-size: 18px;
     margin: 25px 10px 10px 25px;
 }
