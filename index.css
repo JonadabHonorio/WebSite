@@ -153,19 +153,25 @@ main {
     height: 100%;
 }
 
-#linha_vertical_formação {
-
+#Formação {
+ /*   background-color: #454545; */
+    height:35%;
+    padding: 20px 20px 20px 30px;
 }
 
-#Formação {
-    background-color: #454545; 
-    height:35%;
-    padding: 20px 20px 20px 20px;
+#linha_vertical_formação {
+    height: 40px;
+    float: left;
+    border: 2px solid #FF6000;
+    margin-top: 4px;
+    margin-left: 16px;
+    margin-right: 10px;
+
 }
 
 #titulo_formação {
     font-size: 30px;
-    margin: 10px 10px 10px 25px;
+    margin: 10px 10px 10px 20px;
 }
 
 #conteudo_formação {
