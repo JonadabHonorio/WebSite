@@ -107,9 +107,9 @@ main {
 }
 
 
-#Introdução {
-    
-    height:30%;
+#Introducao {
+   
+    height:35%;
     padding: 20px 60px 20px 40px ; 
     text-align: left;
     align-items: center;
@@ -118,48 +118,52 @@ main {
             
 }
 
-#container_conteudo_introdução {
+#container_conteudo_introducao {
     height: 100%;
     margin-top: 50px;
     
 }
 
-#nome_introdução {
+#nome_introducao {
     font-size: 40px; 
     margin-bottom: 8px; 
     
 }
 
-#subtitulo_introdução {
+#subtitulo_introducao {
     font-size: 23px;
     margin-bottom: 8px; 
     
 }
 
-#texto_introdução {
+#texto_introducao {
     font-size: 20px;
     
 }
 
-#container_img_introdução {   
+.info_introducao {
+    margin-left:10px;
+
+}
+
+#container_img_introducao {   
     width: 500px;
-    height:500px;
-    
+    height:500px; 
   
 }
 
-#foto_introdução {
+#foto_introducao {
     width: 100%;
     height: 100%;
 }
 
-#Formação {
-    background-color: #454545; 
+#Formacao {
+     
     height:35%;
     padding: 20px 20px 20px 30px;
 }
 
-#linha_vertical_formação {
+#linha_vertical_formacao {
     height: 40px;
     float: left;
     border: 2px solid #FF6000;
@@ -169,38 +173,50 @@ main {
 
 }
 
-#titulo_formação {
+#titulo_formacao {
     font-size: 30px;
-    margin: 10px 10px 10px 20px;
+    margin: 10px 10px 0px 20px;
 }
 
-#container_conteudo_formação {
+#container_conteudo_formacao {
     font-size: 18px;
-    margin: 25px 10px 10px 140px;
+    margin: 0px 10px 10px 110px;
     text-align: left;
     
-  
+    
 }
 
-#lista_formações {
+#lista_formacoes {
+   list-style: none;
    
     
 }
 
+#lista_formacoes .nome_curso::before {
+    content: '\2022';
+    color: #FF6000;
+    font-size: 45px;
+    margin-right: 20px;
+    
+
+           
+} 
 
 .nome_curso {
     font-size: 25px;
     padding-bottom: 10px;
     padding-top: 10px;
+    
 }
 
-#tecnologia_informação {
-    margin-top: 30px;
+#tecnologia_informacao {
+    margin-top: 0px;
 }
 
 .info_curso {
     font-size: 20px;
-    margin-left: 5px;
+    margin-left: 45px;
+    margin-bottom: 5px;
    
     
 
