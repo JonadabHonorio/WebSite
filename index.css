@@ -80,7 +80,6 @@ body {
 #linha_horizontal_menu {
     width: 100%;
     border: 2px solid #42403e;
-
 }
 
 #links_internos {
@@ -106,16 +105,24 @@ main {
     margin-left: 21%;    
 }
 
+.linha_vertical_main {
+    height: 40px;
+    float: left;
+    border: 2px solid #FF6000;
+    margin-top: 4px;
+    margin-left: 16px;
+    margin-right: 10px;
+}
 
-#Introducao {
-   
+
+#Introducao { 
+    
     height:35%;
     padding: 20px 60px 20px 40px ; 
     text-align: left;
     align-items: center;
     display: flex;
-    justify-content: space-between; 
-            
+    justify-content: space-between;          
 }
 
 #container_conteudo_introducao {
@@ -126,30 +133,25 @@ main {
 
 #nome_introducao {
     font-size: 40px; 
-    margin-bottom: 8px; 
-    
+    margin-bottom: 8px;   
 }
 
 #subtitulo_introducao {
     font-size: 23px;
-    margin-bottom: 8px; 
-    
+    margin-bottom: 8px;    
 }
 
 #texto_introducao {
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
 
 .info_introducao {
     margin-left:10px;
-
 }
 
 #container_img_introducao {   
     width: 500px;
     height:500px; 
-  
 }
 
 #foto_introducao {
@@ -158,20 +160,11 @@ main {
 }
 
 #Formacao {
-     
+    
     height:35%;
     padding: 20px 20px 20px 30px;
 }
 
-#linha_vertical_formacao {
-    height: 40px;
-    float: left;
-    border: 2px solid #FF6000;
-    margin-top: 4px;
-    margin-left: 16px;
-    margin-right: 10px;
-
-}
 
 #titulo_formacao {
     font-size: 30px;
@@ -181,32 +174,24 @@ main {
 #container_conteudo_formacao {
     font-size: 18px;
     margin: 0px 10px 10px 110px;
-    text-align: left;
-    
-    
+    text-align: left; 
 }
 
 #lista_formacoes {
-   list-style: none;
-   
-    
+   list-style: none;   
 }
 
 #lista_formacoes .nome_curso::before {
     content: '\2022';
     color: #FF6000;
     font-size: 45px;
-    margin-right: 20px;
-    
-
-           
+    margin-right: 20px;          
 } 
 
 .nome_curso {
     font-size: 25px;
     padding-bottom: 10px;
-    padding-top: 10px;
-    
+    padding-top: 10px;  
 }
 
 #tecnologia_informacao {
@@ -216,9 +201,28 @@ main {
 .info_curso {
     font-size: 20px;
     margin-left: 45px;
-    margin-bottom: 5px;
-   
-    
-
+    margin-bottom: 5px;  
 }
 
+#Sobre {
+    
+    height: 50%;
+    padding: 20px 20px 20px 30px;
+}
+
+#titulo_sobre {
+    font-size: 30px;
+    margin: 10px 10px 0px 20px;
+}
+
+#container_conteudo_sobre {
+    font-size: 25px;
+    height: inherit;
+    text-align: left;
+    padding: 20px 30px 20px 30px;
+    
+}
+
+.conteudo_sobre {
+    padding: 8px;
+}
