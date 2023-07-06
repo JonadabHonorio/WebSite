@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}                                                    /* RESET.CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
+
+body{
+    font-family: 'Pathway Extreme', sans-serif;
+    color: #F0F0F0;
+    background-color: #393646;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    
+    
+}
+
+#Pai {
+    padding: 10px;
+}
+
+
+#Menu {
+    position: fixed;
+    background-color: #454545;
+    width: 250px;
+    height: 100%;
+    padding: 45px 25px 50px 25px;
+    text-align: center;
+    border-radius: 10px;    
+}
+
+#nome_menu {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #FF6000;
+}
+
+#texto {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+#links_externos {
+    padding-top: 60px;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    margin-bottom: 30px;    
+}
+.icones {
+    width: 30px;
+    height: 30px;
+}
+
+#linha_horizontal_menu {
+    width: 100%;
+    border: 1px solid #42403e;
+}
+
+#links_internos {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin: 15%;  
+}
+
+.elementos {
+    padding: 20px;
+}
+
+#elementos_link_interno {
+    text-decoration: none;
+    color: #F0F0F0;
+}
+
+main {
+    float: right;
+    background-color: rgb(102, 65, 43);
+    width: 1000px;
+    height: 100%;
+    
+       
+}
+
+.linha_vertical_main {
+    height: 30px;
+    float: left;
+    border: 1px solid #FF6000;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 5px;
+}
+
+
+#Introducao { 
+    background-color: #454545;
+    height:300px;
+    padding: 20px 60px 20px 40px ; 
+    text-align: left;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;          
+}
+
+#container_conteudo_introducao {
+    height: 100%;
+    margin-top: 50px;
+    
+}
+
+#nome_introducao {
+    font-size: 30px; 
+    margin-bottom: 8px;   
+}
+
+#subtitulo_introducao {
+    font-size: 15px;
+    margin-bottom: 8px;    
+}
+
+#texto_introducao {
+    font-size: 15px;   
+}
+
+.info_introducao {
+    margin-left:10px;
+}
+
+#container_img_introducao {   
+    width: 500px;
+    height:500px; 
+}
+
+#foto_introducao {
+    width: 100%;
+    height: 100%;
+}
+
+#Formacao {
+    background-color: #686262;
+    height:300px;
+    padding: 20px 20px 20px 30px;
+}
+
+
+#titulo_formacao {
+    font-size: 25px;
+    margin: 10px 10px 0px 20px;
+}
+
+#container_conteudo_formacao {
+    font-size: 15px;
+    margin: 0px 10px 10px 110px;
+    text-align: left; 
+}
+
+#lista_formacoes {
+   list-style: none;   
+}
+
+#lista_formacoes .nome_curso::before {
+    content: '\2022';
+    color: #FF6000;
+    font-size: 35px;
+    margin-right: 20px;          
+} 
+
+.nome_curso {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;  
+}
+
+#tecnologia_informacao {
+    margin-top: 0px;
+}
+
+.info_curso {
+    font-size: 15px;
+    margin-left: 45px;
+    margin-bottom: 5px;  
+}
+
+#Sobre {
+    background-color: #252222;
+    height: 350px;
+    padding: 20px 20px 20px 30px;
+}
+
+#titulo_sobre {
+    font-size: 25px;
+    margin: 10px 10px 0px 20px;
+}
+
+#container_conteudo_sobre {
+    font-size: 15px;
+    height: inherit;
+    text-align: left;
+    padding: 20px 30px 20px 30px;
+    
+}
+
+.conteudo_sobre {
+    padding: 8px;
+}
