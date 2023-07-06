@@ -32,44 +32,46 @@ body{
 }
 
 #Pai {
-    padding: 10px;
+    padding: 10px 10px 10px 12px;
 }
 
 
 #Menu {
     position: fixed;
     background-color: #454545;
-    width: 250px;
-    height: 100%;
-    padding: 45px 25px 50px 25px;
+    width: 220px;
+    height: 600px;
+    padding: 35px 25px 35px 25px;
     text-align: center;
     border-radius: 10px;    
 }
 
 #nome_menu {
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 25px;
+    margin-top: 5px;
 }
 
 #avatar {
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
     border: 3px solid #FF6000;
 }
 
 #texto {
-    font-size: 16px;
-    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 7px;
 }
 
 #links_externos {
-    padding-top: 60px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 12px;   
     list-style-type: none;
     display: flex;
     justify-content:space-evenly;
     flex-direction: row;
-    margin-bottom: 30px;    
+ 
 }
 .icones {
     width: 30px;
@@ -86,11 +88,12 @@ body{
     display: flex;
     flex-direction: column;
     font-size: 15px;
-    margin: 15%;  
+    margin-top: 40px;  
+    
 }
 
 .elementos {
-    padding: 20px;
+    padding: 25px;
 }
 
 #elementos_link_interno {
@@ -103,8 +106,7 @@ main {
     background-color: rgb(102, 65, 43);
     width: 1000px;
     height: 100%;
-    
-       
+    margin-right: 30px;      
 }
 
 .linha_vertical_main {
