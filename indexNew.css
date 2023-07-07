@@ -185,7 +185,7 @@ main {
 
 #container_conteudo_formacao {
     font-size: 15px;
-    margin: 0px 10px 10px 120px;
+    margin: 20px 10px 10px 120px;
     text-align: left; 
 }
 
@@ -207,7 +207,7 @@ main {
 }
 
 #tecnologia_informacao {
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 .info_curso {
@@ -219,7 +219,7 @@ main {
 #Sobre {
    
     height: 350px;
-    padding: 20px 20px 20px 0px;
+    padding: 9px 20px 20px 0px;
 }
 
 #titulo_sobre {
@@ -237,4 +237,10 @@ main {
 
 .conteudo_sobre {
     padding: 8px;
+}
+
+#Projetos {
+   background-color: #454545;
+    height: 500px;
+    padding: 20px 20px 20px 0px;
 }
