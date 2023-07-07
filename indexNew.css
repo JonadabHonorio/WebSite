@@ -125,7 +125,7 @@ main {
 
 
 #Introducao { 
-    background-color: #291818;
+    
     height:260px;
     padding: 0px 0px 0px 0px ; 
     text-align: left;
@@ -149,12 +149,12 @@ main {
 #subtitulo_introducao {
     font-size: 17px;
     margin-bottom: 8px;  
-    margin-left: 25px;  
+    margin-left: 10px;  
 }
 
 #texto_introducao {
     font-size: 15px;  
-    margin-left: 25px; 
+    margin-left: 10px; 
 }
 
 .info_introducao {
@@ -172,7 +172,7 @@ main {
 }
 
 #Formacao {
-    background-color: #454545;
+    
     height:300px;
     padding: 15px 20px 15px 0px;
 }
@@ -185,7 +185,7 @@ main {
 
 #container_conteudo_formacao {
     font-size: 15px;
-    margin: 0px 10px 10px 110px;
+    margin: 0px 10px 10px 120px;
     text-align: left; 
 }
 
@@ -217,21 +217,21 @@ main {
 }
 
 #Sobre {
-    background-color: #413939;
+   
     height: 350px;
     padding: 20px 20px 20px 0px;
 }
 
 #titulo_sobre {
     font-size: 25px;
-    margin: 10px 10px 0px 20px;
+    margin: 10px 10px 0px 0px;
 }
 
 #container_conteudo_sobre {
-    font-size: 15px;
+    font-size: 17px;
     height: inherit;
     text-align: left;
-    padding: 20px 30px 20px 30px;
+    padding: 10px 30px 20px 30px;
     
 }
 
