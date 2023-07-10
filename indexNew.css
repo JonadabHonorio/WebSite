@@ -241,9 +241,8 @@ main {
 
 #Projetos {
     
-    background-color: #454545;
-    height: 650px;
-    padding: 20px 20px 20px 0px;
+    height: 450px;
+    padding: 20px 0px 20px 0px;
 }
 
 #titulo_projeto {
@@ -251,29 +250,22 @@ main {
     margin: 10px 10px 0px 0px;
 }
 
-#container_projetos01 {
-    background-color: #724d4d;
-    padding: 50px;
-    align-items: center;
+#container_projetos {
+    
+    margin-top: 80px;
+    padding-left: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+    justify-content: space-between;
+  
 
-#container_projetos02 {
-    background-color: #724d4d;
-    padding: 50px;
-    margin-left: 23px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+}    
+ 
 
 .card {
     background-color: aliceblue;
-    height: 200px;
-    width: 200px;
+    width: 230px;
+    height: 300px;
+    
 }
