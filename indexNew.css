@@ -30,6 +30,18 @@ body{
     
     
 }
+::-webkit-scrollbar {
+    background: #454545;  
+  
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #454545;    
+    border-radius: 20px;       
+    border: 1px solid #F0F0F0;  
+     
+}
+
 
 #Pai {
     padding: 10px 10px 10px 12px;
@@ -263,10 +275,11 @@ main {
  
 
 .card {
-    
+    box-shadow: 2px 2px  5px #000000;
     opacity: 1;
     width: 240px;
-    height: 340px;
+    height: 370px;
+    padding: 0px;
     align-items: center;
     text-align: center;
     border: 1px solid #FF6000;
@@ -283,14 +296,31 @@ main {
 }
 
 .titulo_projeto {
-    margin: 10px;
+    margin: 5px 10px 5px 10px;
     font-size: 18px;
 }
 
-
-
 .icone_card  {
-    width: 35px;
-    height: 35px;
-    padding: 0px 8px 0px 8px;
+    
+    width: 30px;
+    height: 30px;
+    padding: 0px 5px 0px 5px;
+    margin-top: 5px;
+    
+}
+.descricao_projeto {
+    
+    color: #F0F0F0;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.tec_projeto {
+    color: #000000;
+    font-size: 14px;
+    margin-top: 45px;
+    float: bottom;
+
+
 }
