@@ -280,48 +280,49 @@ main {
     opacity: 1;
     width: 240px;
     height: 370px;
-    padding: 0px;
+    padding-top: 5px;
     align-items: center;
     text-align: center;
     box-shadow: 1px 1px 5px #0000006c;
-    border: 1px solid #0e0d0d73;
+    border: 1px solid #0e0d0d94;
     border-radius: 10px;
        
+}
+
+.titulo_projeto {
+    padding: 5px;
+    font-size: 18px;
 }
 
 .foto_projeto {
     width: 220px;
     height: 170px;
-    margin: 10px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
     border-radius: 10px;
     
-}
-
-.titulo_projeto {
-    margin: 5px 10px 5px 10px;
-    font-size: 18px;
 }
 
 .icone_card  {
     
     width: 30px;
     height: 30px;
-    padding: 0px 5px 0px 5px;
+    padding: 5px 5px 0px 5px;
     margin-top: 5px;
     
 }
+
 .descricao_projeto {
     
     color: #F0F0F0;
     font-size: 15px;
     padding: 5px;
-    margin-top: 5px;
+    margin-top: px;
 }
 
 .tec_projeto {
-    color: #000000;
+    color: #F0F0F0;
     font-size: 14px;
-    margin-top: 45px;
+    margin-top: 55px;
     float: bottom;
 
 
