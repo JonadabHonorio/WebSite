@@ -38,7 +38,7 @@ body{
 ::-webkit-scrollbar-thumb {
     background-color: #454545;    
     border-radius: 20px;       
-    border: 1px solid #F0F0F0;  
+    border: 1px solid #000000;  
      
 }
 
@@ -51,6 +51,7 @@ body{
 #Menu {
     position: fixed;
     background-color: #454545;
+    box-shadow: 1px 1px 5px #0000006c;
     width: 220px;
     height: 600px;
     padding: 35px 25px 35px 25px;
@@ -264,7 +265,7 @@ main {
 
 #container_projetos {
     
-    margin-top: 50px;
+    margin-top: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -275,14 +276,15 @@ main {
  
 
 .card {
-    box-shadow: 2px 2px  5px #000000;
+    
     opacity: 1;
     width: 240px;
     height: 370px;
     padding: 0px;
     align-items: center;
     text-align: center;
-    border: 1px solid #FF6000;
+    box-shadow: 1px 1px 5px #0000006c;
+    border: 1px solid #0e0d0d73;
     border-radius: 10px;
        
 }
