@@ -269,22 +269,20 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
   
-
 }    
  
 
-.card {
-    
+.card {  
     opacity: 1;
-    width: 240px;
+    width: 250px;
     height: 370px;
     padding-top: 5px;
     align-items: center;
     text-align: center;
     box-shadow: 1px 1px 5px #0000006c;
-    border: 1px solid #0e0d0d94;
+    border: 1px solid #FF6000;
     border-radius: 10px;
        
 }
@@ -298,7 +296,7 @@ main {
     width: 220px;
     height: 170px;
     margin: 0px 10px 0px 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     
 }
 
