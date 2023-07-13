@@ -160,14 +160,16 @@ main {
 }
 
 #subtitulo_introducao {
-    font-size: 17px;
+    font-size: 20px;
     margin-bottom: 8px;  
     margin-left: 10px;  
 }
 
-#texto_introducao {
-    font-size: 15px;  
-    margin-left: 10px; 
+#container_texto_introducao {
+    font-size: 17px;
+    Letter-spacing: 2px;
+    
+     
 }
 
 .info_introducao {
@@ -304,7 +306,7 @@ main {
     
     width: 30px;
     height: 30px;
-    padding: 5px 5px 0px 5px;
+    padding: 0px 5px 0px 5px;
     margin-top: 5px;
     
 }
