@@ -160,13 +160,13 @@ main {
 }
 
 #subtitulo_introducao {
-    font-size: 20px;
+    font-size: 19px;
     margin-bottom: 8px;  
     margin-left: 10px;  
 }
 
 #container_texto_introducao {
-    font-size: 17px;
+    font-size: 16px;
     Letter-spacing: 1.5px;
        
 }
@@ -229,7 +229,7 @@ main {
 }
 
 .info_curso {
-    font-size: 17px;
+    font-size: 16px;
     margin-left: 45px;
     margin-bottom: 5px;  
     Letter-spacing: 1.5px;
@@ -237,7 +237,7 @@ main {
 }
 
 #Sobre {
-   
+   background-color: #42403e;
     height: 350px;
     padding: 9px 20px 20px 0px;
 }
@@ -250,15 +250,44 @@ main {
 
 #container_conteudo_sobre {
     font-size: 17px;
-    height: inherit;
-    text-align: left;
-    padding: 10px 30px 20px 30px;
+    font-size: 15px;
+    margin: 20px 10px 10px 140px;
+    text-align: left; 
     
+}
+    
+
+#lista_sobre {
+    
+    background-color: #454545;
+    padding: 8px;
+    Letter-spacing: 1.5px;
+}
+
+.item_lista {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;  
+}
+
+#soft-skills_item {
+    list-style-image: url(assets/sobre-SVG/soft-skills_svg.svg);
     
 }
 
-.conteudo_sobre {
-    padding: 8px;
+#graduacao_item {
+    list-style-image: url(assets/sobre-SVG/graduacao_svg.svg);
+
+}
+
+#experiencias_item {
+    list-style-image: url(assets/sobre-SVG/experiencia_svg.svg);
+
+}
+
+#objetivos_item {
+    list-style-image: url(assets/sobre-SVG/objetivo_svg.svg);
+    
 }
 
 #Projetos {
