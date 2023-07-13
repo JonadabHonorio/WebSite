@@ -149,8 +149,8 @@ main {
 
 #container_conteudo_introducao {
     height: 100%;
-    margin-top:15px;
-    margin-left:16px
+    margin-top: 15px;
+    margin-left: 16px
     
 }
 
@@ -167,7 +167,7 @@ main {
 
 #container_texto_introducao {
     font-size: 17px;
-    Letter-spacing: 2px;
+    Letter-spacing: 1.5px;
     
      
 }
