@@ -61,11 +61,6 @@ body{
       
 }
 
-#nome_menu {
-    font-size: 25px;
-    margin-top: 5px;
-}
-
 #avatar {
     height: 130px;
     width: 130px;
@@ -73,9 +68,27 @@ body{
     border: 3px solid #FF6000;
 }
 
-#texto_menu {
-    font-size: 14px;
-    margin-top: 7px;
+#nome_menu {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+#subtitulo_menu {
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+#pointer_menu {
+    position: relative;
+    float: left;
+    margin: 1px 0px 0px 45px;
+
+}
+
+#localidade_menu {
+    text-align:left;
+    font-size: 15px;
+    margin-top: 5px;
 }
 
 #links_externos {
@@ -237,7 +250,7 @@ main {
 }
 
 #Sobre {
-   background-color: #42403e;
+   
     height: 350px;
     padding: 9px 20px 20px 0px;
 }
@@ -259,7 +272,7 @@ main {
 
 #lista_sobre {
     
-    background-color: #454545;
+   
     padding: 8px;
     Letter-spacing: 1.5px;
 }
