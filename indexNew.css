@@ -250,8 +250,8 @@ main {
 }
 
 #Sobre {
-   
-    height: 350px;
+    
+    height: 450px;
     padding: 9px 20px 20px 0px;
 }
 
@@ -262,26 +262,27 @@ main {
 }
 
 #container_conteudo_sobre {
+
     font-size: 17px;
     font-size: 15px;
-    margin: 20px 10px 10px 140px;
+    margin: 30px 10px 10px 150px;
     text-align: left; 
     
 }
     
-
-#lista_sobre {
-    
-   
-    padding: 8px;
-    Letter-spacing: 1.5px;
-}
-
 .item_lista {
     font-size: 20px;
     padding-bottom: 10px;
     padding-top: 10px;  
 }
+
+.conteudo_lista {
+    font-size: 16px;
+    margin-left: 7px;
+    padding: 5px;
+    Letter-spacing: 1.5px;
+}
+
 
 #soft-skills_item {
     list-style-image: url(assets/sobre-SVG/soft-skills_svg.svg);
