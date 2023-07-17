@@ -251,7 +251,7 @@ main {
 
 #Sobre {
     
-    height: 450px;
+    height: 410px;
     padding: 9px 20px 20px 0px;
 }
 
@@ -307,7 +307,7 @@ main {
 #Projetos {
     
     height: 450px;
-    padding: 20px 0px 20px 0px;
+    padding: 10px 0px 20px 0px;
 }
 
 #titulo_projeto {
@@ -317,7 +317,7 @@ main {
 
 #container_projetos {
     
-    margin-top: 25px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
