@@ -330,10 +330,10 @@ main {
     opacity: 1;
     width: 250px;
     height: 370px;
-    padding-top: 5px;
+    padding: 5px;
     align-items: center;
     text-align: center;
-    box-shadow: 1px 1px 5px #0000006c;
+    box-shadow: 1px 1px 3px #0000006c;
     border: 1px solid #FF6000;
     border-radius: 10px;
        
@@ -344,16 +344,25 @@ main {
     font-size: 18px;
 }
 
-.foto_projeto {
-    width: 220px;
+.container_img_card {
+    width: 230px;
     height: 170px;
-    margin: 0px 10px 0px 10px;
+    margin-left: 9px;
+     
+
+    
+    
+}
+
+.foto_projeto {
+    width: 100%;
+    height: 100%;
+    
     border-radius: 5px;
     
 }
 
 .icone_card  {
-    
     width: 30px;
     height: 30px;
     padding: 0px 5px 0px 5px;
@@ -362,18 +371,18 @@ main {
 }
 
 .descricao_projeto {
-    
     color: #F0F0F0;
     font-size: 15px;
-    padding: 5px;
-    margin-top: px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .tec_projeto {
     color: #F0F0F0;
     font-size: 14px;
-    margin-top: 55px;
-    float: bottom;
+    margin-top: 70px;
+    
 
 
 }
