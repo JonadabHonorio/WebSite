@@ -20,16 +20,20 @@ time, mark, audio, video {
 
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Pathway Extreme', sans-serif;
     color: #F0F0F0;
     background-color: #393646;
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
-    
+    overflow-x: hidden;  
     
 }
+
 ::-webkit-scrollbar {
     background: #454545;  
   
