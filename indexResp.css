@@ -52,12 +52,17 @@ body{
 }
 
 #icone_menu {
-    position: absolute;
-    top: 10px;
-    left: 300px;
+    color:#FF6000;
+    z-index: 1;
+    position: absolute;   
+    top: 30px;
+    left: 20px;
+    cursor: pointer;
+    font-size: 5vh;
 }
 
 #container_menu {
+    display: block;
     align-items: center;
 }
 
@@ -162,7 +167,7 @@ main {
     float: right;
     width: 1000px;
     height: 100%;
-    margin-right: 0px;
+    
     padding: 20px;      
 }
 
