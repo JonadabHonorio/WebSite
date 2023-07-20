@@ -53,8 +53,9 @@ body{
 
 #icone_menu {
     color:#FF6000;
+    display: none;
     z-index: 1;
-    position: absolute;   
+    position: fixed;   
     top: 30px;
     left: 20px;
     cursor: pointer;
@@ -163,7 +164,7 @@ body{
 }
 
 main {
-    background-color: #454545;
+    
     float: right;
     width: 1000px;
     height: 100%;
@@ -413,7 +414,25 @@ main {
     color: #F0F0F0;
     font-size: 14px;
     margin-top: 70px;
-    
+}                                                        /* @MEDIA QUERY */
+
+@media (max-width: 1310px) {
+#icone_menu {
+    display: block;
+}
+#container_menu {
+    display: none;
+}
+
+main {
+    margin: auto;
+    float: none;
+}
+
+
+
+
+
 
 
 }
