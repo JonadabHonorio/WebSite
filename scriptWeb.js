@@ -1,8 +1,8 @@
 function clickMenu() {
-    if (container_menu.style.display == "block") {
-        container_menu.style.display = "none"
+    let menu = document.getElementById("container_menu");
+    if (menu.style.display == "none") {
+        menu.style.display = "block"
     } else {
-        container_menu.style.display = "block"
-    } 
-          
+        menu.style.display = "none"
+    }
 };
