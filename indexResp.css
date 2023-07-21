@@ -63,7 +63,7 @@ body{
 }
 
 #container_menu {
-    display: block;
+    
     align-items: center;
 }
 
@@ -417,11 +417,12 @@ main {
 }                                                        /* @MEDIA QUERY */
 
 @media (max-width: 1310px) {
-#icone_menu {
-    display: block;
-}
 #container_menu {
     display: none;
+}
+
+#icone_menu {
+    display: block;
 }
 
 main {
@@ -429,10 +430,5 @@ main {
     float: none;
 }
 
-
-
-
-
-
-
 }
+
