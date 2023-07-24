@@ -1,4 +1,4 @@
-const menu = document.getElementById("container_menu");
+const menu = document.getElementById("Menu");
 const botaoMenu = document.getElementById("icone_menu");
 
 function clickMenu() {           /*Função responsável por revelar e ocultar o menu lateral juntamente com a mudança de cor do botão */
