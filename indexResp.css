@@ -62,21 +62,18 @@ body{
     font-size: 5vh;
 }
 
-#container_menu {
-    
-    align-items: center;
-}
 
 #Menu {
     position: fixed;
     background-color: #454545;
     box-shadow: 1px 1px 5px #0000006c;
     width: 220px;
-    height: 100vh;
+    height: 100%;
     padding: 35px 25px 35px 25px;
     text-align: center;
     border-radius: 10px; 
     align-items: center;
+    
     
       
 }
@@ -134,7 +131,6 @@ body{
 }
 
 #container_links_internos {
-    
     position: relative;
     height: 100vh;
     text-align: center;
@@ -417,7 +413,7 @@ main {
 }                                                        /* @MEDIA QUERY */
 
 @media (max-width: 1310px) {
-#container_menu {
+#Menu{
     display: none;
 }
 
@@ -429,6 +425,10 @@ main {
     margin: auto;
     float: none;
 }
+
+}
+
+@media (max-height: 0px) {
 
 }
 
