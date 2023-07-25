@@ -445,6 +445,8 @@ main {
 @media (max-width: 1310px) {
 #Menu{
     display: none;
+    animation: start 0.3s;
+    
     
 }
 
