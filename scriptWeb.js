@@ -4,13 +4,17 @@ function clickMenu() {        /*Função responsável por revelar e ocultar o me
     if (menu.style.display == "block" ) {
         menu.style.display = "none"
         botaoMenu.style.color = "#FF6000"
-        menu.style.animation = "saida 0.3s ease-in"
+        
     } else {
         menu.style.display = "block"
         botaoMenu.style.color = "#F0F0F0"
-        menu.style.animation = "start .3s ease-in"
+        
         
           
     }   
-}; 
+};
+
+if (menu.style.dislpay == "block") {
+    menu.style.animation = "saida 0,3s"
+}
 
