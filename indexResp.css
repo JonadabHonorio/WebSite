@@ -51,7 +51,7 @@ body{
     padding: 0px 10px 10px 0px;
 }
 
-#icone_menu {
+#botao_menu {
     color:#FF6000;
     display: none;
     z-index: 1;
@@ -73,9 +73,39 @@ body{
     text-align: center;
     border-radius: 10px; 
     align-items: center;
-    
-    
       
+}
+
+
+@keyframes start {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+        
+        
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+        
+        
+    }
+}
+
+@keyframes saida {
+    from {
+        opacity: 1;
+        transform: translateX(0px);
+        
+        
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-30px);
+        
+        
+    }
+
 }
 
 #avatar {
@@ -415,9 +445,10 @@ main {
 @media (max-width: 1310px) {
 #Menu{
     display: none;
+    
 }
 
-#icone_menu {
+#botao_menu {
     display: block;
 }
 
@@ -425,10 +456,6 @@ main {
     margin: auto;
     float: none;
 }
-
-}
-
-@media (max-height: 0px) {
 
 }
 
