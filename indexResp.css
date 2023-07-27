@@ -60,6 +60,11 @@ body{
     left: 20px;
     cursor: pointer;
     font-size: 5vh;
+    transition: 0.3s;
+}
+
+#botao_menu:hover {
+    transform: scale(1.1);
 }
 
 
