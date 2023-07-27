@@ -14,7 +14,4 @@ function clickMenu() {        /*Função responsável por revelar e ocultar o me
     }   
 };
 
-if (menu.style.dislpay == "block") {
-    menu.style.animation = "saida 0,3s"
-}
 
