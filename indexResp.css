@@ -82,10 +82,10 @@ body{
 }
 
 
-@keyframes start {
+@keyframes slide {
     from {
         opacity: 0;
-        transform: translateX(-30px);
+        transform: translateX(-50px);
         
         
     }
@@ -410,10 +410,7 @@ main {
     width: 230px;
     height: 170px;
     margin-left: 9px;
-     
-
-    
-    
+  
 }
 
 .foto_projeto {
@@ -832,7 +829,7 @@ main {
 @media (max-width: 1170px) {
     #Menu{
         display: none;
-        animation: start 0.3s;
+        animation: slide 0.3s;
         
     }
 
@@ -862,8 +859,9 @@ main {
     }
 
     main {
+        
         margin: auto;
-        float: none;
+        float: center;
     }
 
 }
