@@ -195,7 +195,7 @@ body{
 }
 
 main {
-    background-color:#454545 ;
+    
     float: right;
     width: 1000px;
     height: 100%; 
@@ -213,7 +213,7 @@ main {
 
 
 #Introducao { 
-    background-color: #433c63;
+    
     height:260px;
     padding: 0px 0px 0px 0px ; 
     text-align: left;
@@ -261,7 +261,7 @@ main {
 }
 
 #Formacao {
-    background-color: #525130;
+    
     height:300px;
     padding: 15px 20px 15px 0px;
 }
@@ -312,7 +312,7 @@ main {
 }
 
 #Sobre {
-    background-color: #ad5454;
+    
     height: 410px;
     padding: 9px 20px 20px 0px;
 }
@@ -367,7 +367,7 @@ main {
 }
 
 #Projetos {
-    background-color: #5e818b;
+    
     height: 450px;
     padding: 10px 0px 20px 0px;
 }
@@ -446,48 +446,392 @@ main {
     margin-top: 70px;
 }                                                        /* @MEDIA QUERY */
 
-@media (max-width: 1317px) {
+@media (max-width: 1310px) {
 
-#Introducao {
-    width: 100%;
-    margin-left: 10px;
+    #Introducao {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    #Formacao {
+        width: 100%;
+        margin-left: 10px;
+        
+    }
+
+    #Sobre {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    #Projetos {
+        width: 100%;
+        margin-left: 10px;
+    }
+
 }
 
-#Formacao {
-    width: 100%;
-    margin-left: 10px;
+@media (max-width: 1300px) {
+
+    #Introducao {
+        width: 100%;
+        margin-left: 20px;
+    }
+    
+    #Formacao {
+        width: 100%;
+        margin-left: 20px;
+        
+    }
+    
+    #Sobre {
+        width: 100%;
+        margin-left: 20px;
+    }
+    
+    #Projetos {
+        width: 100%;
+        margin-left: 20px;
+    }
     
 }
 
-#Sobre {
-    width: 100%;
-    margin-left: 10px;
+@media (max-width: 1290px) {
+
+    #Introducao {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    #Formacao {
+        width: 100%;
+        margin-left: 30px;
+        
+    }
+
+    #Sobre {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    #Projetos {
+        width: 100%;
+        margin-left: 30px;
+    }
+
 }
 
-#Projetos {
-    width: 100%;
-    margin-left: 10px;
-}
+@media (max-width: 1280px) {
+
+    #Introducao {
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    #Formacao {
+        width: 100%;
+        margin-left: 40px;
+        
+    }
+
+    #Sobre {
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    #Projetos {
+        width: 100%;
+        margin-left: 40px;
+    }
 
 }
 
+@media (max-width: 1270px) {
 
-/*@media (max-width: 1310px) {
-#Menu{
-    display: none;
-    animation: start 0.3s;
+    #Introducao {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    #Formacao {
+        width: 100%;
+        margin-left: 50px;
+        
+    }
+
+    #Sobre {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    #Projetos {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+}
+
+@media (max-width: 1260px) {
+
+    #Introducao {
+        width: 100%;
+        margin-left: 60px;
+    }
+
+    #Formacao {
+        width: 100%;
+        margin-left: 60px;
+        
+    }
+
+    #Sobre {
+        width: 100%;
+        margin-left: 60px;
+    }
+
+    #Projetos {
+        width: 100%;
+        margin-left: 60px;
+    }
+
+}
+
+@media (max-width: 1250px) {
+
+    #Introducao {
+        width: 100%;
+        margin-left: 70px;
+    }
+
+    #Formacao {
+        width: 100%;
+        margin-left: 70px;
+        
+    }
+
+    #Sobre {
+        width: 100%;
+        margin-left: 70px;
+    }
+
+    #Projetos {
+        width: 100%;
+        margin-left: 70px;
+    }
+
+}
+
+@media (max-width: 1240px) {
+
+    #Introducao {
+        width: 100%;
+        margin-left: 80px;
+    }
+
+    #Formacao {
+        width: 100%;
+        margin-left: 80px;
+        
+    }
+
+    #Sobre {
+        width: 100%;
+        margin-left: 80px;
+    }
+
+    #Projetos {
+        width: 100%;
+        margin-left: 80px;
+    }
+
+}
+
+@media (max-width: 1230px) {
+
+    #Introducao {
+        width: 100%;
+        margin-left: 90px;
+    }
+
+    #Formacao {
+        width: 100%;
+        margin-left: 90px;
+        
+    }
+
+    #Sobre {
+        width: 100%;
+        margin-left: 90px;
+    }
+
+    #Projetos {
+        width: 100%;
+        margin-left: 90px;
+    }
+
+}
+
+@media (max-width: 1220px) {
+
+    #Introducao {
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    #Formacao {
+        width: 100%;
+        margin-left: 100px;
+        
+    }
+
+    #Sobre {
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    #Projetos {
+        width: 100%;
+        margin-left: 100px;
+    }
+
+}
+
+@media (max-width: 1210px) {
+
+    #Introducao {
+        width: 100%;
+        margin-left: 110px;
+    }
+
+    #Formacao {
+        width: 100%;
+        margin-left: 110px;
+        
+    }
+
+    #Sobre {
+        width: 100%;
+        margin-left: 110px;
+    }
+
+    #Projetos {
+        width: 100%;
+        margin-left: 110px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    #Introducao {
+        width: 100%;
+        margin-left: 120px;
+    }
+
+    #Formacao {
+        width: 100%;
+        margin-left: 120px;
+        
+    }
+
+    #Sobre {
+        width: 100%;
+        margin-left: 120px;
+    }
+
+    #Projetos {
+        width: 100%;
+        margin-left: 120px;
+    }
+
+}
+
+@media (max-width: 1190px) {
+
+    #Introducao {
+        width: 100%;
+        margin-left: 130px;
+    }
+
+    #Formacao {
+        width: 100%;
+        margin-left: 130px;
+        
+    }
+
+    #Sobre {
+        width: 100%;
+        margin-left: 130px;
+    }
+
+    #Projetos {
+        width: 100%;
+        margin-left: 130px;
+    }
+
+}
+
+@media (max-width: 1180px) {
+
+    #Introducao {
+        width: 100%;
+        margin-left: 140px;
+    }
+
+    #Formacao {
+        width: 100%;
+        margin-left: 140px;
+        
+    }
+
+    #Sobre {
+        width: 100%;
+        margin-left: 140px;
+    }
+
+    #Projetos {
+        width: 100%;
+        margin-left: 140px;
+    }
+
+}
+
+@media (max-width: 1170px) {
+    #Menu{
+        display: none;
+        animation: start 0.3s;
+        
+    }
+
+    #Introducao {
+        margin-left: 0px;
+       
+    }
+
+    #Formacao {
+        margin-left: 0px;
+        
+        
+    }
+
+    #Sobre {
+        margin-left: 0px;
+        
+    }
+
+    #Projetos {
+        margin-left: 0px;
      
+    }
+
+    #botao_menu {
+        display: block;
+    }
+
+    main {
+        margin: auto;
+        float: none;
+    }
+
 }
-
-
-#botao_menu {
-    display: block;
-}
-
-main {
-    margin: auto    ;
-    float: none;
-}
-
-}*/
 
