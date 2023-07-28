@@ -446,6 +446,7 @@ main {
     margin-top: 70px;
 }                                                        /* @MEDIA QUERY */
 
+
 @media (max-width: 1310px) {
 
     #Introducao {
@@ -643,6 +644,10 @@ main {
         width: 100%;
         margin-left: 80px;
     }
+    
+    #container_projetos {
+        margin-right: 20px;
+    }
 
 }
 
@@ -669,6 +674,11 @@ main {
         margin-left: 90px;
     }
 
+    #container_projetos {
+        margin-right: 30px;
+    }
+
+
 }
 
 @media (max-width: 1220px) {
@@ -692,6 +702,10 @@ main {
     #Projetos {
         width: 100%;
         margin-left: 100px;
+    }
+
+    #container_projetos {
+        margin-right: 40px;
     }
 
 }
@@ -719,6 +733,11 @@ main {
         margin-left: 110px;
     }
 
+    #container_projetos {
+        margin-right: 50px;
+    }
+
+
 }
 
 @media (max-width: 1200px) {
@@ -743,6 +762,11 @@ main {
         width: 100%;
         margin-left: 120px;
     }
+
+    #container_projetos {
+        margin-right: 60px;
+    }
+
 
 }
 
@@ -769,6 +793,11 @@ main {
         margin-left: 130px;
     }
 
+    #container_projetos {
+        margin-right: 70px;
+    }
+
+
 }
 
 @media (max-width: 1180px) {
@@ -792,6 +821,10 @@ main {
     #Projetos {
         width: 100%;
         margin-left: 140px;
+    }
+
+    #container_projetos {
+        margin-right: 80px;
     }
 
 }
