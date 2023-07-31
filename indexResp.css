@@ -54,7 +54,7 @@ body{
 #botao_menu {
     color:#FF6000;
     display: none;
-    z-index: 1;
+    z-index: 2;
     position: fixed;   
     top: 30px;
     left: 20px;
@@ -78,6 +78,7 @@ body{
     text-align: center;
     border-radius: 10px; 
     align-items: center;
+    z-index: 1;
       
 }
 
@@ -215,7 +216,9 @@ main {
 #Introducao { 
     
     height:260px;
-    padding: 0px 0px 0px 0px ; 
+    padding: 0px 0px 0px 0px ;
+    position: relative; 
+    z-index: 0;
     text-align: left;
     align-items: center;
     display: flex;
@@ -235,13 +238,13 @@ main {
 }
 
 #subtitulo_introducao {
-    font-size: 19px;
+    font-size: 20px;
     margin-bottom: 8px;  
     margin-left: 10px;  
 }
 
 #container_texto_introducao {
-    font-size: 16px;
+    font-size: 17px;
     Letter-spacing: 1.5px;
        
 }
@@ -250,15 +253,19 @@ main {
     margin-left:10px;
 }
 
-#container_img_introducao {   
+#container_Img {
+    height: 500px;
     width: 500px;
-    height:500px; 
+    position: absolute;
+    right: 10px;
+    
 }
 
 #foto_introducao {
     width: 100%;
     height: 100%;
 }
+
 
 #Formacao {
     
@@ -304,7 +311,7 @@ main {
 }
 
 .info_curso {
-    font-size: 16px;
+    font-size: 17px;
     margin-left: 45px;
     margin-bottom: 5px;  
     Letter-spacing: 1.5px;
@@ -339,7 +346,7 @@ main {
 }
 
 .conteudo_lista {
-    font-size: 16px;
+    font-size: 17px;
     margin-left: 8px;
     padding: 5px;
     Letter-spacing: 1.5px;
