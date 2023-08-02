@@ -834,7 +834,14 @@ main {
 }
 
 @media (max-width: 1170px) {
-    #Menu{
+    
+    main {
+        float: center;
+        margin: auto;
+          
+    }
+
+    #Menu {
         display: none;
         animation: slide 0.3s;
         
@@ -865,11 +872,55 @@ main {
         display: block;
     }
 
+    
+
+}
+
+@media (max-width: 1024px) {
+    
     main {
+        background-color: #454545;
+        padding: 20px; 
+        margin-right: -50px;
         
-        margin: auto;
-        float: center;
     }
+
+    #Introducao {
+        margin-left: 20px;
+       
+    }
+
+
+    #Formacao {
+        margin-left: 20px;
+        
+    }
+    #container_conteudo_formacao {
+        margin-left: 80px;
+
+    }
+
+
+    #Sobre {
+        margin-left: 20px;
+        
+    }
+
+    #container_conteudo_sobre {
+        margin-left: 110px;
+        
+
+    }
+
+    #Projetos {
+        margin-left: 20px;
+     
+    }
+
+    #botao_menu {
+        display: block;
+    }
+
 
 }
 
