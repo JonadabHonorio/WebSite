@@ -851,7 +851,7 @@ main {
     }
 
     #container_conteudo_sobre {
-        margin-left: 80px;
+        margin-left: 70px;
     }
 
     #Projetos {
@@ -868,9 +868,9 @@ main {
 @media (max-width: 1170px) {
     
     main {
-        float: center;
-        margin: auto;
-          
+        background-color: #454545;
+        margin:auto;
+        margin-right: 5px;
     }
 
     #Menu {
@@ -880,6 +880,7 @@ main {
     }
 
     #Introducao {
+        
         margin-left: 0px;
        
     }
@@ -896,12 +897,16 @@ main {
     }
 
     #container_conteudo_sobre {
-        margin-left: 75px;
+        margin-left: 150px;
     }
 
     #Projetos {
         margin-left: 0px;
      
+    }
+    
+    #container_projetos {
+        margin-right: 0px;
     }
 
     #botao_menu {
@@ -912,10 +917,151 @@ main {
 
 }
 
+@media (max-width: 1169px) {
+    
+    main {
+        
+        margin-right: 4px;
+    }
+}
+
+@media (max-width: 1168px) {
+    
+    main {
+        margin-right: 3px;
+    }
+}
+
+@media (max-width: 1167px) {
+    
+    main {
+        margin-right: 2px;
+    }
+}
+
+@media (max-width: 1166px) {
+    
+    main {
+        margin-right: 1px;
+    }
+}
+
+@media (max-width: 1165px) {
+    
+    main {
+        margin-right: 0px;
+    }
+
+    #Introducao {
+        
+        
+       
+    }
+
+    #Formacao {
+       
+        
+        
+    }
+
+    #Sobre {
+        
+        
+    }
+
+    #container_conteudo_sobre {
+       
+    }
+
+    #Projetos {
+        
+     
+    }
+    
+    #container_projetos {
+       
+    }
+
+    #botao_menu {
+    }
+
+
+}
+
+@media (max-width: 1164px) {
+    
+    main {
+       
+    }
+}
+
+@media (max-width: 1163px) {
+    
+    main {
+       
+        
+    }
+
+    #Introducao {
+        
+        
+       
+    }
+
+    #Formacao {
+       
+        
+        
+    }
+
+    #Sobre {
+        
+        
+    }
+
+    #container_conteudo_sobre {
+       
+    }
+
+    #Projetos {
+        
+     
+    }
+    
+    #container_projetos {
+       
+    }
+
+    #botao_menu {
+    }
+
+}
+
+@media (max-width: 1162px) {
+    
+    main {
+    }
+}
+
+@media (max-width: 1161px) {
+    
+    main {
+        
+    }
+}
+
+@media (max-width: 1160px) {
+    
+    main {
+        
+    }
+}
+
+
 @media (max-width: 1024px) {
     
     main {
-        background-color: #454545;
+        
         padding: 20px; 
         margin-right: -50px;
         
