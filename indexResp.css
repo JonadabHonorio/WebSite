@@ -816,7 +816,7 @@ main {
 @media (max-width: 1170px) {
     
     main {
-        background-color: #454545;
+        
         margin:auto;
         margin-right: 5px;
     }
@@ -899,112 +899,212 @@ main {
     main {
         margin-right: 0px;
     }
-
-    #Introducao {
-        
-        
-       
-    }
-
-    #Formacao {
-       
-        
-        
-    }
-
-    #Sobre {
-        
-        
-    }
-
-    #container_conteudo_sobre {
-       
-    }
-
-    #Projetos {
-        
-     
-    }
-    
-    #container_projetos {
-       
-    }
-
   
-
 }
 
-@media (max-width: 1164px) {
+@media (max-width: 1159px) {
     
-    main {
-       
-    }
-}
-
-@media (max-width: 1163px) {
-    
-    main {
-       
-        
-    }
-
     #Introducao {
-        
-        
+        margin-left: 10px;
        
     }
 
     #Formacao {
-       
-        
+        margin-left: 10px;
         
     }
 
     #Sobre {
-        
-        
-    }
-
-    #container_conteudo_sobre {
-       
+        margin-left: 10px;
+           
     }
 
     #Projetos {
+        margin-left: 10px;
         
+    }
+ 
+
+}
+
+@media (max-width: 1120px) {
+    
+    #Introducao {
+        margin-left: 20px;
+         
+    }
+
+    #Formacao {
+        margin-left: 20px;
+        
+    }
+
+    #Sobre {
+        margin-left: 20px;
+        
+    }
+
+    #Projetos {
+        margin-left: 20px;
+     
+    }
+  
+}
+
+@media (max-width: 1100px) {
+
+    #Introducao {
+        margin-left: 30px;
+       
+    }
+
+    #Formacao {
+        margin-left: 30px;
+        
+    }
+
+    #Sobre {
+        margin-left: 30px;
+        
+    }
+
+    #Projetos {
+        margin-left: 30px;
+     
+    }
+    
+    
+}
+
+
+@media (max-width: 1080px) {
+    
+    #Introducao {
+        margin-left: 40px;
+       
+    }
+
+    #Formacao {
+        margin-left: 40px;
+        
+    }
+
+    #Sobre {
+        margin-left: 40px;
+        
+    }
+
+    #Projetos {
+        margin-left: 40px;
      
     }
     
     #container_projetos {
+        margin-right: 10px;
+       
+    }
+}
+
+@media (max-width: 1065px) {
+
+    #Introducao {
+        margin-left: 50px;   
+
+    }
+
+    #Formacao {
+        margin-left: 50px;
+        
+    }
+
+    #Sobre {
+        margin-left: 50px;
+        
+    }
+
+    #Projetos {
+        margin-left: 50px;
+     
+    }
+    
+    #container_projetos {
+        margin-right: 20px;
+       
+    }
+}
+
+@media (max-width: 1050px) {
+   
+    #Introducao {
+        margin-left: 60px;
+        
+    }
+
+    #Formacao {
+        margin-left: 60px;
+        
+    }
+
+    #Sobre {
+        margin-left: 60px;
+        
+    }
+
+    #container_conteudo_sobre {
+        margin-left: 140px;
        
     }
 
-}
-
-@media (max-width: 1162px) {
+    #Projetos {
+        margin-left: 60px;
+     
+    }
     
-    main {
+    #container_projetos {
+        margin-right: 30px; 
+       
     }
 }
 
-@media (max-width: 1161px) {
+@media (max-width: 1035px) {
     
-    main {
+    #Introducao {
+        margin-left: 70px;
+       
+    }
+
+    #Formacao {
+        margin-left: 70px;
         
     }
-}
 
-@media (max-width: 1160px) {
-    
-    main {
+    #container_conteudo_formacao {
+        margin-left: 110px;
+    }
+
+    #Sobre {
+        margin-left: 70px;
         
     }
+
+    #container_conteudo_sobre {
+        margin-left: 130px;
+       
+    }
+
+    #Projetos {
+        margin-left: 70px;
+     
+    }
+    
 }
+
+
 
 
 @media (max-width: 1024px) {
     
     main {
-        
         padding: 20px; 
         margin-right: -50px;
         
@@ -1015,16 +1115,15 @@ main {
        
     }
 
-
     #Formacao {
         margin-left: 20px;
         
     }
+
     #container_conteudo_formacao {
         margin-left: 80px;
 
     }
-
 
     #Sobre {
         margin-left: 20px;
@@ -1033,16 +1132,13 @@ main {
 
     #container_conteudo_sobre {
         margin-left: 110px;
-        
-
+    
     }
 
     #Projetos {
         margin-left: 20px;
      
     }
-
-   
 
 }
 
