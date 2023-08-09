@@ -1111,12 +1111,12 @@ main {
     }
 
     #Introducao {
-        margin-left: 20px;
+        margin-left: 23px;
        
     }
 
     #Formacao {
-        margin-left: 20px;
+        margin-left: 23px;
         
     }
 
@@ -1126,7 +1126,7 @@ main {
     }
 
     #Sobre {
-        margin-left: 20px;
+        margin-left: 23px;
         
     }
 
@@ -1136,9 +1136,181 @@ main {
     }
 
     #Projetos {
-        margin-left: 20px;
+        margin-left: 23px;
      
     }
 
 }
+
+@media (max-width: 1014px) {
+    
+    #Introducao {
+        
+        margin-left: 33px;
+       
+    }
+
+    #Formacao {
+        margin-left: 33px;
+        
+    }
+
+    #Sobre {
+        margin-left: 33px;
+        
+    }
+
+    #Projetos {
+        margin-left: 33px;
+     
+    }
+
+}
+
+@media (max-width: 1004px) {
+    
+
+    #Introducao {
+        margin-left: 43px;
+       
+    }
+
+    #Formacao {
+        margin-left: 43px;
+        
+    }
+
+    #Sobre {
+        margin-left: 43px;
+        
+    }
+
+    #container_conteudo_sobre {
+        margin-left: 98px;
+    
+    }
+
+    #Projetos {
+        margin-left: 43px;
+     
+    }
+    #container_projetos {
+        margin-right: 60px;
+    }
+
+}
+
+@media (max-width: 994px) {
+    
+    #Introducao {
+        margin-left: 53px;
+       
+    }
+
+    #Formacao {
+        margin-left: 53px;
+        
+    }
+
+    #Sobre {
+        margin-left: 53px;
+        
+    }
+
+    #Projetos {
+        margin-left: 53px;
+     
+    }
+
+}
+
+@media (max-width: 984px) {
+    
+    #Introducao {
+        margin-left: 63px;
+       
+    }
+
+    #Formacao {
+        margin-left: 63px;
+        
+    }
+
+    #Sobre {
+        margin-left: 63px;
+        
+    }
+
+    #container_conteudo_sobre {
+        margin-left: 86px;
+    
+    }
+
+    #Projetos {
+        margin-left: 63px;
+     
+    }
+
+    #container_projetos {
+        margin-right: 70px;
+    }  
+
+}
+
+@media (max-width: 974px) {
+    
+    #Introducao {
+        margin-left: 73px;
+       
+    }
+
+    #Formacao {
+        margin-left: 73px;
+        
+    }
+
+    #Sobre {
+        margin-left: 73px;
+        
+    }
+
+    #Projetos {
+        margin-left: 73px;
+    }  
+
+}
+
+@media (max-width: 964px) {
+    
+    #Introducao {
+        margin-left: 83px;
+       
+    }
+
+    #Formacao {
+        margin-left: 83px;
+        
+    }
+
+    #Sobre {
+        margin-left: 83px;
+        
+    }
+
+    #container_conteudo_sobre {
+        margin-left: 74px;
+    
+    }
+
+    #Projetos {
+        margin-left: 83px;
+    }
+
+    #container_projetos {
+        margin-right: 80px;
+        padding: 0px 15px 20px 10px;;
+    }  
+     
+}
+
 
