@@ -331,9 +331,6 @@ main {
 }
 
 #container_conteudo_sobre {
-    
-    font-size: 17px;
-    font-size: 15px;
     margin: 30px 10px 10px 150px;
     text-align: left; 
     
@@ -352,25 +349,17 @@ main {
     Letter-spacing: 1.5px;
 }
 
-
 #soft-skills_item {
     list-style-image: url(assets/Sobre/soft-skills_svg.svg);
-    
 }
-
 #graduacao_item {
     list-style-image: url(assets/Sobre/graduacao_svg.svg);
-
 }
-
 #experiencias_item {
     list-style-image: url(assets/Sobre/experiencia_svg.svg);
-
 }
-
 #objetivos_item {
-    list-style-image: url(assets/Sobre/objetivo_svg.svg);
-    
+    list-style-image: url(assets/Sobre/objetivo_svg.svg); 
 }
 
 #Projetos {
@@ -1203,6 +1192,7 @@ main {
 @media (max-width: 994px) {
     
     #Introducao {
+    
         margin-left: 53px;
        
     }
@@ -1313,4 +1303,200 @@ main {
      
 }
 
+@media (max-width: 954px) {
+    
+    #Introducao {
+        margin-left: 93px;
+       
+    }
+
+    #Formacao {
+        margin-left: 93px;
+        
+    }
+
+    #Sobre {
+        margin-left: 93px;
+        
+    }
+
+
+    #Projetos {
+        margin-left: 93px;
+    }
+
+     
+}
+
+@media (max-width: 944px) {
+    
+    #Introducao {
+        margin-left: 103px;
+       
+    }
+
+    #Formacao {
+        margin-left: 103px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 103px;
+        
+    }
+
+    #container_conteudo_sobre {
+        margin-left: 64px;
+    
+    }
+
+    .conteudo_lista {
+        margin-left: 3px;
+    }
+
+    #Projetos {
+        margin-left: 103px; 
+    }
+
+    #container_projetos {
+        padding: 0px 35px 20px 10px;;
+    }  
+     
+}
+
+@media (max-width: 934px) {
+    
+    #Introducao {
+        margin-left: 113px;
+       
+    }
+
+    #Formacao {
+        margin-left: 113px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 113px;
+        
+    }
+
+    .conteudo_lista {
+        Letter-spacing: 1.1px;
+
+    }
+
+    #Projetos {
+        margin-left: 113px; 
+    }
+
+    #container_projetos {
+        padding: 0px 47px 20px 10px;;
+    }  
+     
+}
+
+@media (max-width: 924px) {
+    
+    #Introducao {
+        margin-left: 123px;
+       
+    }
+
+    #container_Img {
+        margin-right: 10px;
+    }
+
+    #Formacao {
+        margin-left: 123px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 123px;
+        
+    }
+
+    #Projetos {
+        margin-left: 123px; 
+    }
+
+    #container_projetos {
+        padding: 0px 59px 20px 10px;;
+    }  
+     
+}
+
+@media (max-width: 914px) {
+    
+    #Introducao {
+        margin-left: 133px;
+       
+    }
+
+    #container_Img {
+        margin-right: 20px;
+    }
+
+    #Formacao {
+        margin-left: 133px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 133px;
+        
+    }
+
+    #Projetos {
+        margin-left: 133px; 
+    }
+
+    #container_projetos {
+        padding: 0px 71px 20px 10px;;
+    }  
+     
+}
+
+@media (max-width: 904px) {
+    
+    #Introducao {
+        margin-left: 143px;
+       
+    }
+
+    #container_Img {
+        margin-right: 30px;
+    }
+
+    #Formacao {
+        margin-left: 143px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 143px;
+        
+    }
+
+    #container_conteudo_sobre {
+        margin-left: 64px;
+    
+    }
+
+    .conteudo_lista {
+        Letter-spacing: 1.0px;
+
+    }
+
+
+    #Projetos {
+        margin-left: 143px; 
+    }
+
+    #container_projetos {
+        padding: 0px 83px 20px 10px;;
+    }  
+     
+}
 
