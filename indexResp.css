@@ -1666,7 +1666,6 @@ main {
 @media (max-width: 844px) {
     
     #Formacao {
-        background-color: #454545;
         margin-left: 203px;                                                                                                                             
         
     }
@@ -1748,12 +1747,17 @@ main {
 @media (max-width: 814px) {
 
     #Introducao {
-        margin-left: 163px; 
+        margin-left: 173px; 
     }
     
     #Formacao {
+        background-color: #454545;
         margin-left: 233px;                                                                                                                             
         
+    }
+
+    #container_conteudo_formacao {
+        margin-left: 32px;
     }
 
     #Sobre {
@@ -1761,13 +1765,36 @@ main {
         
     }
 
-    .conteudo_lista {
-        Letter-spacing: 0px;
-
-    }
-
     #Projetos {
         margin-left: 233px; 
     }
 
 }
+
+@media (max-width: 804px) {
+
+    #Introducao {
+        margin-left: 183px; 
+    }
+    
+    #Formacao {
+        margin-left: 243px;                                                                                                                             
+        
+    }
+
+    #container_conteudo_formacao {
+        margin-left: 32px;
+    }
+
+    #Sobre {
+        margin-left: 243px;
+        
+    }
+
+
+    #Projetos {
+        margin-left: 243px; 
+    }
+
+}
+
