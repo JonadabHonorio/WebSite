@@ -67,7 +67,6 @@ body{
     transform: scale(1.1);
 }
 
-
 #Menu {
     position: fixed;
     background-color: #454545;
@@ -81,7 +80,6 @@ body{
     z-index: 1;
       
 }
-
 
 @keyframes slide {
     from {
@@ -297,9 +295,7 @@ main {
     font-size: 20px;
     padding-bottom: 10px;
     padding-top: 10px;  
-    
-
-    
+      
 }
 
 #tecnologia_informacao {
@@ -315,7 +311,6 @@ main {
 }
 
 #Sobre {
-    
     height: 410px;
     padding: 9px 20px 20px 0px;
 }
@@ -358,6 +353,23 @@ main {
     list-style-image: url(assets/Sobre/objetivo_svg.svg); 
 }
 
+/*Tratamento para Responividade das informações da lista "lista_conteúdo"*/
+#info_sobre01_804px {
+    display: none;
+}
+
+#info_sobre02_804px{    
+    display: none;
+}
+
+#info_sobre03_804px {
+    display: none;
+}
+
+#info_sobre04_804px {
+    display: none;
+}
+
 #Projetos {
     
     height: 450px;
@@ -379,7 +391,6 @@ main {
   
 }    
  
-
 .card {  
     opacity: 1;
     width: 250px;
@@ -452,6 +463,22 @@ main {
     #Sobre {
         width: 100%;
         margin-left: 10px;
+    }
+
+    #info_sobre01_804px {
+        display: none;
+    }
+
+    #info_sobre02_804px{    
+        display: none;
+    }
+
+    #info_sobre03_804px {
+        display: none;
+    }
+    
+    #info_sobre04_804px {
+        display: none;
     }
 
     #Projetos {
@@ -1751,7 +1778,6 @@ main {
     }
     
     #Formacao {
-        background-color: #454545;
         margin-left: 233px;                                                                                                                             
         
     }
@@ -1774,10 +1800,11 @@ main {
 @media (max-width: 804px) {
 
     #Introducao {
-        margin-left: 183px; 
+        margin-left: 193px; 
     }
     
     #Formacao {
+        background-color: #454545;
         margin-left: 243px;                                                                                                                             
         
     }
@@ -1791,6 +1818,37 @@ main {
         
     }
 
+    #info_sobre01 {
+        display: none;
+    }
+
+    #info_sobre02 {
+        display: none;
+    }
+
+    #info_sobre03 {
+        display: none;
+    }
+
+    #info_sobre04 {
+        display: none;
+    }
+    /*Responsividade aplicada ao conteúdo da lista "Sobre"*/
+    #info_sobre01_804px {
+        display: block;
+    }
+
+    #info_sobre02_804px{    
+        display: block;
+    }
+
+    #info_sobre03_804px {
+        display: block;
+    }
+    
+    #info_sobre04_804px {
+        display: block;
+    }
 
     #Projetos {
         margin-left: 243px; 
