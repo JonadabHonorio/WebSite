@@ -354,11 +354,11 @@ main {
 }
 
 /*Tratamento para Responividade das informações da lista "lista_conteúdo"*/
-#info_sobre01_804px {
+#info_sobre01_774px {
     display: none;
 }
 
-#info_sobre02_804px{    
+#info_sobre02_774px{    
     display: none;
 }
 
@@ -366,7 +366,7 @@ main {
     display: none;
 }
 
-#info_sobre04_804px {
+#info_sobre04_744px {
     display: none;
 }
 
@@ -1817,6 +1817,87 @@ main {
         margin-left: 243px;
         
     }
+    
+    #info_sobre03 {
+        display: none;
+    }
+
+    /*Responsividade aplicada ao conteúdo da lista "Sobre"*/
+
+    #info_sobre03_804px {
+        display: block;
+    }
+    
+    #Projetos {
+        margin-left: 243px; 
+    }
+
+
+}
+
+@media (max-width: 794px) {
+
+    #Introducao {
+        margin-left: 203px; 
+    }
+    
+    #Formacao {
+        margin-left: 253px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 253px;
+        
+    }
+
+    #Projetos {
+        margin-left: 253px; 
+    }
+
+}
+
+@media (max-width: 784px) {
+
+    #Introducao {
+        margin-left: 213px; 
+    }
+    
+    #Formacao {
+        margin-left: 263px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 263px;
+        
+    }
+
+    #Projetos {
+        margin-left: 263px; 
+    }
+
+    #container_projetos {
+        padding: 0px 250px 20px 10px;
+    }  
+
+}
+
+@media (max-width: 774px) {
+
+    #Introducao {
+        margin-left: 213px; 
+    }
+    
+    #Formacao {
+        margin-left: 273px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 273px;
+        
+    }
 
     #info_sobre01 {
         display: none;
@@ -1826,33 +1907,243 @@ main {
         display: none;
     }
 
-    #info_sobre03 {
-        display: none;
+    #info_sobre01_774px {
+        display: block;
+    }
+
+    #info_sobre02_774px {
+        display: block;
+    }
+
+    #Projetos {
+        margin-left: 273px; 
+    }
+
+    #container_projetos {
+        padding: 0px 260px 20px 10px;
+    }  
+
+}
+
+@media (max-width: 764px) {
+
+    #Introducao {
+        margin-left: 213px; 
+    }
+    
+    #Formacao {
+        margin-left: 283px;                                                                                                                             
+        
+    }
+
+    .info_curso{
+        Letter-spacing: 0.50px;
+    }
+
+    #Sobre {
+        margin-left: 283px;
+        
+    }
+
+    #Projetos {
+        margin-left: 283px; 
+    }
+
+    #container_projetos {
+        padding: 0px 270px 20px 10px;
+    }  
+
+}
+
+@media (max-width: 754px) {
+
+    #Introducao {
+        margin-left: 223px; 
+    }
+    
+    #Formacao {
+        margin-left: 293px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 293px;
+        
+    }
+
+    #Projetos {
+        margin-left: 293px; 
+    }
+
+    #container_projetos {
+        padding: 0px 280px 20px 10px;
+    }  
+
+}
+
+@media (max-width: 744px) {
+
+    #Introducao {
+        margin-left: 223px; 
+    }
+    
+    #Formacao {
+        margin-left: 303px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 303px;
+        height: 460px;
+        
     }
 
     #info_sobre04 {
         display: none;
     }
-    /*Responsividade aplicada ao conteúdo da lista "Sobre"*/
-    #info_sobre01_804px {
-        display: block;
-    }
 
-    #info_sobre02_804px{    
-        display: block;
-    }
-
-    #info_sobre03_804px {
-        display: block;
-    }
-    
-    #info_sobre04_804px {
+    #info_sobre04_744px {
         display: block;
     }
 
     #Projetos {
-        margin-left: 243px; 
+        margin-left: 303px; 
     }
 
+    #container_projetos {
+        padding: 0px 290px 20px 10px;
+    }  
+
 }
+
+@media (max-width: 734px) {
+
+    #Introducao {
+        margin-left: 233px; 
+    }
+    
+    #Formacao {
+        margin-left: 313px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 313px;
+        
+    }
+
+    #Projetos {
+        margin-left: 313px; 
+    }
+
+    #container_projetos {
+        padding: 0px 300px 20px 10px;
+    }  
+
+}
+
+@media (max-width: 724px) {
+
+    #Introducao {
+        margin-left: 243px; 
+    }
+    
+    #Formacao {
+        margin-left: 323px;                                                                                                                             
+        
+    }
+
+    .info_curso{
+        Letter-spacing: 0px;
+    }
+
+    #Sobre {
+        margin-left: 323px;
+        
+    }
+
+    #Projetos {
+        margin-left: 323px; 
+    }
+
+    #container_projetos {
+        padding: 0px 310px 20px 10px;
+    }  
+
+}
+
+@media (max-width: 714px) {
+
+    #Introducao {
+        margin-left: 253px; 
+    }
+    
+    #Formacao {
+        margin-left: 333px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 333px;
+        
+    }
+
+    #Projetos {
+        margin-left: 333px; 
+    }
+
+    #container_projetos {
+        padding: 0px 320px 20px 10px;
+    }  
+
+}
+
+@media (max-width: 704px) {
+
+    #Formacao {
+        margin-left: 343px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 343px;
+        
+    }
+
+    #Projetos {
+        margin-left: 343px; 
+    }
+
+    #container_projetos {
+        padding: 0px 330px 20px 10px;
+    }  
+
+}
+
+@media (max-width: 694px) {
+
+    #Formacao {
+        margin-left: 353px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 353px;
+        
+    }
+
+    #Projetos {
+        margin-left: 353px; 
+    }
+
+    #container_projetos {
+        padding: 0px 340px 20px 10px;
+    }  
+
+}
+
+
+
+
+
 
