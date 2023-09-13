@@ -262,7 +262,7 @@ main {
 
 
 #Formacao {
-    
+    background-color: #454545;
     height:300px;
     padding: 15px 20px 15px 0px;
 }
@@ -306,6 +306,38 @@ main {
     font-size: 17px;
     margin-left: 45px;
     margin-bottom: 5px;  
+    Letter-spacing: 1.5px;
+}
+
+#container_situacao_curso01 {
+    background-color: #351b0b;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    left: 600px;
+    top: -165px;
+}
+
+#container_situacao_curso02 {
+    background-color: #351b0b;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    left: 378px;
+    top: -69px;
+    
+}
+
+
+#situacao_curso01 {
+    font-size: 17px;
+    Letter-spacing: 1.5px;
+}
+
+#situacao_curso02 {
+    font-size: 17px;
     Letter-spacing: 1.5px;
 }
 
@@ -385,6 +417,10 @@ main {
 }
 
 #info_sobre03_664px {
+    display: none;
+}
+
+#info_sobre03_594px {       /*Tratamento para Responividade das informações da lista "lista_conteúdo" partir de 594px*/
     display: none;
 }
 
