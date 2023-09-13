@@ -1676,7 +1676,8 @@
 @media (max-width: 694px) {
 
     #Formacao {
-        margin-left: 353px;                                                                                                                             
+        margin-left: 353px;
+        height: 320px;                                                                                                                           
         
     }
     #info_curso01 {
@@ -1926,6 +1927,7 @@
         margin-left: 303px; 
     }
 
+
     #Formacao {
         margin-left: 443px;                                                                                                                             
         
@@ -1947,10 +1949,6 @@
 
 @media (max-width: 594px) {
 
-    #Introducao {
-        margin-left: 303px; 
-    }
-
     #Formacao {
         margin-left: 453px;                                                                                                                             
         
@@ -1961,11 +1959,66 @@
         
     }
 
+    #info_sobre03_664px {
+        display: none;
+    }
+
+    #info_sobre03_594px {
+        display: block;
+    }
+
     #Projetos {
         margin-left: 453px; 
     }
+}
+
+@media (max-width: 584px) {
+
+    #Formacao {
+        margin-left: 463px;                                                                                                                             
+        
+    }
+
+    #Sobre {
+        margin-left: 463px;
+        
+    }
+
+    #Projetos {
+        margin-left: 463px; 
+    }
 
     #container_projetos {
-        padding-right: 445px;
+        padding-right: 465px;
     }
 }
+
+@media (max-width: 574px) {
+
+    #Introducao {
+        margin-left: 313px; 
+    }
+
+    #Formacao {
+        margin-left: 473px;                                                                                                                             
+        
+    }
+
+    .info_curso {
+        font-size: 16px;
+    }
+
+    #Sobre {
+        margin-left: 473px;
+        
+    }  
+
+    #Projetos {
+        margin-left: 473px; 
+    }
+
+    #container_projetos {
+        padding-right: 475px;
+    }
+}
+
