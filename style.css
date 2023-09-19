@@ -260,18 +260,14 @@ main {
     height: 100%;
 }
 
-
 #Formacao {
-    background-color: #454545;
     height:300px;
     padding: 15px 20px 15px 0px;
 }
 
-
 #titulo_formacao {
     font-size: 25px;
     margin: 10px 10px 0px 0px;
-    
 }
 
 #container_conteudo_formacao {
@@ -310,33 +306,25 @@ main {
 }
 
 #container_situacao_curso01 {
-    background-color: #351b0b;
     height: 20px;
     width: 100px;
     text-align: center;
     position: relative;
-    left: 600px;
+    left: 594px;
     top: -165px;
 }
 
 #container_situacao_curso02 {
-    background-color: #351b0b;
     height: 20px;
     width: 100px;
     text-align: center;
     position: relative;
-    left: 378px;
+    left: 375px;
     top: -69px;
     
 }
 
-
-#situacao_curso01 {
-    font-size: 17px;
-    Letter-spacing: 1.5px;
-}
-
-#situacao_curso02 {
+.situacao_curso {
     font-size: 17px;
     Letter-spacing: 1.5px;
 }
