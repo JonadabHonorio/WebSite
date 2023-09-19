@@ -1249,6 +1249,18 @@
         
     }
 
+    #container_situacao_curso01 {
+        left: 564px;   
+    }
+
+    .situacao_curso {
+        Letter-spacing: 1.0px;
+    }
+
+    #container_situacao_curso02 {
+        left: 356px;
+    }
+
     .info_curso{
         Letter-spacing: 1.0px;
     }
@@ -1486,7 +1498,19 @@
     
     #Formacao {
         margin-left: 283px;                                                                                                                             
-        
+    }
+
+    #container_situacao_curso01 {
+        left: 532px; 
+           
+    }
+
+    .situacao_curso {
+        Letter-spacing: 0.50px;
+    }
+
+    #container_situacao_curso02 {
+        left: 335px;
     }
 
     .info_curso{
@@ -1606,6 +1630,18 @@
         
     }
 
+    #container_situacao_curso01 {
+        left: 500px;     
+    }
+
+    .situacao_curso {
+        Letter-spacing: 0px;
+    }
+
+    #container_situacao_curso02 {
+        left: 315px;
+    }
+
     .info_curso{
         Letter-spacing: 0px;
     }
@@ -1678,8 +1714,16 @@
     #Formacao {
         margin-left: 353px;
         height: 320px;                                                                                                                           
-        
     }
+
+    #container_situacao_curso01 {
+        left: 383px;     
+    }
+
+    .situacao_curso {
+        Letter-spacing: 0px;
+    }
+
     #info_curso01 {
         display: none;
     }
@@ -2000,8 +2044,22 @@
     }
 
     #Formacao {
-        margin-left: 473px;                                                                                                                             
-        
+        margin-left: 473px;                                                                                                                            
+    }
+    
+    #container_situacao_curso01 {
+        left: 361px;
+        top: -156px;   
+    }
+
+    .situacao_curso {
+        font-size: 16px;
+    }
+
+    #container_situacao_curso02 {
+        left: 296px;
+        top: -66px;
+
     }
 
     .info_curso {
