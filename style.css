@@ -46,7 +46,6 @@ body{
      
 }
 
-
 #Pai {
     padding: 0px 10px 10px 0px;
 }
@@ -86,13 +85,11 @@ body{
         opacity: 0;
         transform: translateX(-50px);
         
-        
     }
     to {
         opacity: 1;
         transform: translateX(0px);
-        
-        
+           
     }
 }
 
@@ -100,13 +97,11 @@ body{
     from {
         opacity: 1;
         transform: translateX(0px);
-        
-        
+          
     }
     to {
         opacity: 0;
         transform: translateX(-30px);
-        
         
     }
 
@@ -165,17 +160,16 @@ body{
 }
 
 #container_links_internos {
+    align-items: center;
     position: relative;
     height: 100vh;
     text-align: center;
     display: flex;
     flex-direction: column;
 
-
 }
 
 #links_internos {
-    
     position: relative;
     top: 60px;
     list-style-type: none;
@@ -188,10 +182,58 @@ body{
     
 }
 
-#elementos_link_interno {
+.elementos_link_interno {
     text-decoration: none;
     color: #F0F0F0;
     
+}
+
+#elementos_link_formacao::after {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: #FF6000;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+    bottom: 180px;
+    left: 15px;
+
+}
+
+#elementos_link_sobre::after {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: #FF6000;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+    bottom: 104px;
+    left: 23px;
+
+}
+
+#elementos_link_projetos::after {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: #FF6000;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+    bottom: 26px;
+    left: 15px;
+
+}
+
+#elementos_link_formacao:hover::after {
+    width: 80%;
+}
+
+#elementos_link_sobre:hover::after {
+    width: 70%;
+}
+
+#elementos_link_projetos:hover::after {
+    width: 80%;
 }
 
 main {
