@@ -160,20 +160,32 @@ body{
 }
 
 #container_mensagem_links_externos {
-    background-color: #000000;
+    background-color: #454545;
     height: 40px;
     width: 60px;
     border-radius: 10%;
+    visibility: hidden;
     position:absolute;
-    right: -65px;
+    right: -70px;
     top: 250px;
    
 }
 
 #mensagem_links_externos {
-    color: #FF6000;
+    font-size: 15px;
+    color: #F0F0F0;
     text-align: center;
     margin-top: 13px;
+}
+
+#mensagem_links_externos::after {
+    content: "";
+    border-style: solid;
+    border-width: 6px;
+    border-color:  transparent #454545 transparent transparent ;
+    position: absolute;
+    right: 60px;
+    top: 27px;  
 }
 
 #linha_horizontal_menu {
