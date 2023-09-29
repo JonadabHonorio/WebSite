@@ -174,13 +174,30 @@ body{
 #container_link_Linkedin {
     background-color: #454545;
     height: 40px;
-    width: 60px;
+    width: 70px;
     border-radius: 10%;
-    visibility: hidden;
+    visibility: visible;
     position: absolute;
-    right: -70px;
+    right: -80px;
     top: 250px;
    
+}
+
+#mensagem_link_Likedin {
+    font-size: 15px;
+    color: #F0F0F0;
+    text-align: center;
+    margin-top: 13px;
+}
+
+#mensagem_link_Likedin::after { /*Elemento que cria a parte vsual da caixa de mensagem, o "rabinho" */
+    content: "";
+    border-style: solid;
+    border-width: 6px;
+    border-color:  transparent #454545 transparent transparent ;
+    position: absolute;
+    right: 69px;
+    top: 27px;  
 }
 
 #container_link_Email {
@@ -208,7 +225,7 @@ body{
     border-width: 6px;
     border-color:  transparent #454545 transparent transparent ;
     position: absolute;
-    right: 60px;
+    right: 59px;
     top: 27px;  
 }
 
