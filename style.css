@@ -168,18 +168,38 @@ body{
     position: absolute;
     right: -70px;
     top: 250px;
-   
+    animation-duration: 1s;
+    animation-name: slide-mensagem;
+    
+    
+} 
+
+@keyframes slide-mensagem {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+        
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+           
+    }
 }
+   
+
 
 #container_link_Linkedin {
     background-color: #454545;
     height: 40px;
     width: 70px;
     border-radius: 10%;
-    visibility: visible;
+    visibility: hidden;
     position: absolute;
     right: -80px;
     top: 250px;
+    animation-duration: 1s;
+    animation-name: slide-mensagem;
    
 }
 
@@ -209,6 +229,8 @@ body{
     position: absolute;
     right: -70px;
     top: 250px;
+    animation-duration: 1s;
+    animation-name: slide-mensagem;
    
 }
 
