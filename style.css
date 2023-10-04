@@ -168,11 +168,14 @@ body{
     position: absolute;
     right: -70px;
     top: 250px;
+    
+        
+}
+
+.animation {
     animation-duration: 1s;
     animation-name: slide-mensagem;
-    
-    
-} 
+}
 
 @keyframes slide-mensagem {
     from {
@@ -198,8 +201,7 @@ body{
     position: absolute;
     right: -80px;
     top: 250px;
-    animation-duration: 1s;
-    animation-name: slide-mensagem;
+    
    
 }
 
@@ -229,8 +231,6 @@ body{
     position: absolute;
     right: -70px;
     top: 250px;
-    animation-duration: 1s;
-    animation-name: slide-mensagem;
    
 }
 
