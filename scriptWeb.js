@@ -3,7 +3,6 @@ const botaoMenu = document.getElementById("botao_menu");
 const caixaGitHub = document.getElementById("container_link_GitHub");
 const caixaLinkedin = document.getElementById("container_link_Linkedin");
 const caixaEmail = document.getElementById("container_link_Email");
-const anima= ducument.getElementByClassName("animation")
 
 function clickMenu() {        /*Função responsável por revelar e ocultar o menu lateral juntamente com a mudança de cor do botão */
     if (menu.style.display == "block") {
