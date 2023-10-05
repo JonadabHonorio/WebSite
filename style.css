@@ -59,7 +59,7 @@ body{
     left: 20px;
     cursor: pointer;
     font-size: 5vh;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 #botao_menu:hover {
@@ -190,8 +190,6 @@ body{
     }
 }
    
-
-
 #container_link_Linkedin {
     background-color: #454545;
     height: 40px;
