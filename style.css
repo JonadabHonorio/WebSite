@@ -124,15 +124,19 @@ body{
     margin-top: 4px;
 }
 
-#pointer_menu {
-    position: relative;
-    float: left;
-    margin: 1px 0px 0px 45px;
+#container_localidade {
+    text-align: center;
+}
 
+#icon_local {
+    position: absolute;
+    left: 55px;
+    top: 228px;
+   
+    
 }
 
 #localidade_menu {
-    text-align:left;
     font-size: 15px;
     margin-top: 5px;
 }
@@ -149,7 +153,6 @@ body{
 }
 
 .container_li {
-   
     padding-left: 15px;
     align-items: center;
     width: 60px;
@@ -282,6 +285,7 @@ body{
 #linha_horizontal_menu {
     width: 100%;
     border: 1px solid #42403e;
+    
 }
 
 #container_links_internos {
