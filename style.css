@@ -191,8 +191,6 @@ body{
     
 }
 
-
-
 .animation {
     animation-duration: 1s;
     animation-name: slide-mensagem;
@@ -615,6 +613,50 @@ main {
 
 .icone_card:hover {
     transform: scale(1.1);
+}
+
+.container_mensagem_repositorio_projeto {
+    background-color: #454545;
+    height: 30px;
+    width: 140px;
+    text-align: center;
+    border-radius: 10%;
+    visibility: visible;
+    position: absolute;
+    left: -55px;
+    top: 220px;
+    transition: 0.2s;
+}
+
+.container_mensagem_producao_projeto {
+    background-color: #454545;
+    height: 40px;
+    width: 60px;
+    border-radius: 10%;
+    visibility: hidden;
+    position: absolute;
+    right: -80px;
+    top: 250px;
+    transition: 0.2s;
+}
+
+.container_mensagem_repositorio_projeto::after {
+    content: "";
+    border-style: solid;
+    border-width: 6px;
+    border-color:  transparent transparent transparent #454545 ;
+    position: absolute;
+    right: -12px;
+    top: 5px;  
+
+
+}
+
+
+.mensagem_links_projeto {
+    font-size: 12px;
+    color: #F0F0F0;
+    margin-top: 9px;
 }
 
 .descricao_projeto {
