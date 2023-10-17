@@ -621,22 +621,10 @@ main {
     width: 140px;
     text-align: center;
     border-radius: 10%;
-    visibility: visible;
+    visibility: hidden;
     position: absolute;
     left: -55px;
     top: 220px;
-    transition: 0.2s;
-}
-
-.container_mensagem_producao_projeto {
-    background-color: #454545;
-    height: 40px;
-    width: 60px;
-    border-radius: 10%;
-    visibility: hidden;
-    position: absolute;
-    right: -80px;
-    top: 250px;
     transition: 0.2s;
 }
 
@@ -649,8 +637,32 @@ main {
     right: -12px;
     top: 5px;  
 
+}
+
+.container_mensagem_producao_projeto {
+    background-color: #454545;
+    height: 30px;
+    width: 135px;
+    text-align: center;
+    border-radius: 10%;
+    visibility: hidden;
+    position: absolute;
+    right: -55px;
+    top: 220px;
+    transition: 0.2s;
+}
+
+.container_mensagem_producao_projeto::after {
+    content: "";
+    border-style: solid;
+    border-width: 6px;
+    border-color:  transparent #454545 transparent transparent  ;
+    position: absolute;
+    left: -12px;
+    top: 5px;  
 
 }
+
 
 
 .mensagem_links_projeto {
