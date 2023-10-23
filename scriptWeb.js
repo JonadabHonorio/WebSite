@@ -3,8 +3,8 @@ const botaoMenu = document.getElementById("botao_menu");
 const caixaGitHub = document.getElementById("container_link_GitHub");
 const caixaLinkedin = document.getElementById("container_link_Linkedin");
 const caixaEmail = document.getElementById("container_link_Email");
-const caixaRepositorio = document.querySelector(".container_mensagem_repositorio_projeto");
-const caixaProducao = document.querySelector(".container_mensagem_producao_projeto");
+const caixaRepositorio = document.querySelectorAll(".container_mensagem_repositorio_projeto");
+const caixaProducao = document.querySelectorAll(".container_mensagem_producao_projeto");
 
 
 function clickMenu() {                 /*Função responsável por revelar e ocultar o menu lateral juntamente com a mudança de cor do botão */
@@ -48,22 +48,29 @@ function enibirMensagemEmail() {
 
 
 
-function exibirMensagemRepositorio() {      /* Grupo de Funções que revelam e ocultam a mensagem dos links externos dos PROJETOS ao passar o mouse*/
-    caixaRepositorio.style.visibility = "visible"
+function exibirMensagemRepositorio() {      /* Grupo de Funções que revelam e ocultam a mensagem dos links externos dos PROJETOS ao passar o mouse*/  
+    caixaRepositorio[0].style.visibility = "visible"
+    console.log(caixaRepositorio[0])
     
 }
 
 function enibirMensagemRepositorio() {
-    caixaRepositorio.style.visibility = "hidden" 
+    
+    caixaRepositorio[0].style.visibility = "hidden" 
     
 }
 
 function exibirMensagemProducao() {
-    caixaProducao.style.visibility = "visible"
+    caixaProducao[0].style.visibility = "visible"
 
 }
 
 function enibirMensagemProducao() {
-    caixaProducao.style.visibility = "hidden"
+    caixaProducao[0].style.visibility = "hidden"
 
 }
+
+
+
+
+
