@@ -48,29 +48,68 @@ function enibirMensagemEmail() {
 
 
 
-function exibirMensagemRepositorio() {      /* Grupo de Funções que revelam e ocultam a mensagem dos links externos dos PROJETOS ao passar o mouse*/  
+function exibirMensagemRepositorio01() {      /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do PROJETO01 ao passar o mouse*/  
     caixaRepositorio[0].style.visibility = "visible"
-    console.log(caixaRepositorio[0])
     
 }
 
-function enibirMensagemRepositorio() {
+function enibirMensagemRepositorio01() {
     
     caixaRepositorio[0].style.visibility = "hidden" 
     
 }
 
-function exibirMensagemProducao() {
+function exibirMensagemProducao01() {
     caixaProducao[0].style.visibility = "visible"
 
 }
 
-function enibirMensagemProducao() {
+function enibirMensagemProducao01() {
     caixaProducao[0].style.visibility = "hidden"
 
 }
 
 
 
+function exibirMensagemRepositorio02() {      /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do PROJETO02 ao passar o mouse*/  
+    caixaRepositorio[1].style.visibility = "visible"
+    
+}
+
+function enibirMensagemRepositorio02() {
+    
+    caixaRepositorio[1].style.visibility = "hidden" 
+    
+}
+
+function exibirMensagemProducao02() {
+    caixaProducao[1].style.visibility = "visible"
+
+}
+
+function enibirMensagemProducao02() {
+    caixaProducao[1].style.visibility = "hidden"
+
+}
 
 
+
+function exibirMensagemRepositorio03() {      /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do PROJETO03 ao passar o mouse*/  
+    caixaRepositorio[2].style.visibility = "visible"
+    
+}
+
+function enibirMensagemRepositorio03() {
+    caixaRepositorio[2].style.visibility = "hidden" 
+    
+}
+
+function exibirMensagemProducao03() {
+    caixaProducao[2].style.visibility = "visible"
+
+}
+
+function enibirMensagemProducao03() {
+    caixaProducao[2].style.visibility = "hidden"
+
+}
