@@ -209,7 +209,7 @@ body{
     }
 }
 
-#container_link_GitHub {
+.container_mensagem_links_externos {
     background-color: #454545;
     height: 40px;
     width: 60px;
@@ -251,19 +251,6 @@ body{
     position: absolute;
     right: 69px;
     top: 27px;  
-}
-
-#container_link_Email {
-    background-color: #454545;
-    height: 40px;
-    width: 60px;
-    border-radius: 10%;
-    visibility: hidden;
-    position: absolute;
-    right: -70px;
-    top: 250px;
-    transition: 0.2s;
-   
 }
 
 .mensagem_links_externos {
