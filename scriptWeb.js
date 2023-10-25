@@ -1,8 +1,7 @@
-const menu = document.getElementById("Menu");
-const botaoMenu = document.getElementById("botao_menu");
-const caixaGitHub = document.getElementById("container_link_GitHub");
-const caixaLinkedin = document.getElementById("container_link_Linkedin");
-const caixaEmail = document.getElementById("container_link_Email");
+const menu = document.querySelector("#Menu");
+const botaoMenu = document.querySelector("#botao_menu");
+const caixaMensagemLinksExternos = document.querySelectorAll(".container_mensagem_links_externos");
+const caixaLinkedin = document.querySelector("#container_link_Linkedin");
 const caixaRepositorio = document.querySelectorAll(".container_mensagem_repositorio_projeto");
 const caixaProducao = document.querySelectorAll(".container_mensagem_producao_projeto");
 
@@ -20,12 +19,12 @@ function clickMenu() {                 /*Função responsável por revelar e ocu
 
                                     
 function exibirMensagemGithub() {       /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do MENU ao passar o mouse*/
-    caixaGitHub.style.visibility = "visible"  
+    caixaMensagemLinksExternos[0].style.visibility = "visible"  
          
 }
 
 function enibirMensagemGithub() {
-    caixaGitHub.style.visibility = "hidden"
+    caixaMensagemLinksExternos[0].style.visibility = "hidden"
 }
 
 
@@ -39,11 +38,11 @@ function enibirMensagemLinkedin() {
 
 
 function exibirMensagemEmail() {
-    caixaEmail.style.visibility = "visible" 
+    caixaMensagemLinksExternos[1].style.visibility = "visible" 
 }
 
 function enibirMensagemEmail() {
-    caixaEmail.style.visibility = "hidden"
+    caixaMensagemLinksExternos[1].style.visibility = "hidden"
 }
 
 
