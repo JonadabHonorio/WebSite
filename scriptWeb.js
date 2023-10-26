@@ -26,13 +26,12 @@ function exibirMensagemGithub() {       /* Grupo de Funções que revelam e ocul
 
 function enibirMensagemGithub() {
     caixaMensagemLinksExternos[0].style.display = "none"
-}
 
+}
 
 function exibirMensagemLinkedin() {
     caixaLinkedin.style.display = "block"
     
-  
 }
 
 function enibirMensagemLinkedin() {
@@ -40,13 +39,14 @@ function enibirMensagemLinkedin() {
          
 }
 
-
 function exibirMensagemEmail() {
     caixaMensagemLinksExternos[1].style.display = "block"
+
 }
 
 function enibirMensagemEmail() {
     caixaMensagemLinksExternos[1].style.display = "none"
+
 }
 
 
@@ -57,7 +57,6 @@ function exibirMensagemRepositorio01() {      /* Grupo de Funções que revelam 
 }
 
 function enibirMensagemRepositorio01() {
-    
     caixaRepositorio[0].style.visibility = "hidden" 
     
 }
@@ -80,7 +79,6 @@ function exibirMensagemRepositorio02() {      /* Grupo de Funções que revelam 
 }
 
 function enibirMensagemRepositorio02() {
-    
     caixaRepositorio[1].style.visibility = "hidden" 
     
 }
