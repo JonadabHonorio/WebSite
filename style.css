@@ -191,11 +191,6 @@ body{
     
 }
 
-.animation {
-    animation-duration: 1s;
-    animation-name: slide-mensagem;
-}
-
 @keyframes slide-mensagem {
     from {
         opacity: 0;
@@ -214,11 +209,13 @@ body{
     height: 40px;
     width: 60px;
     border-radius: 10%;
-    visibility: hidden;
+    display: none;
     position: absolute;
     right: -70px;
     top: 250px;
     transition: 0.2s;
+    animation-duration: 1s;
+    animation-name: slide-mensagem;
     
         
 }   
@@ -228,11 +225,13 @@ body{
     height: 40px;
     width: 70px;
     border-radius: 10%;
-    visibility: hidden;
+    display: none;
     position: absolute;
     right: -80px;
     top: 250px;
     transition: 0.1s;
+    animation-duration: 1s;
+    animation-name: slide-mensagem;
     
 }
 
