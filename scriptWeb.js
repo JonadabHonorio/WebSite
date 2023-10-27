@@ -5,7 +5,17 @@ const caixaLinkedin = document.querySelector("#container_link_Linkedin");
 const caixaRepositorio = document.querySelectorAll(".container_mensagem_repositorio_projeto");
 const caixaProducao = document.querySelectorAll(".container_mensagem_producao_projeto");
 const iconesExternos = document.querySelectorAll(".icone_link_externo");
+const projetosCard = document.querySelectorAll(".card");
+const efeitoClick = document.querySelector("#efeitoClickProjeto");
 
+
+/*projetosCard[0].addEventListener('click', () => {
+    projetosCard[0].classList.toggle('efeitoClick')
+})*/
+
+function clickProjeto() {
+    projetosCard[0].style.display = "none"
+}
 
 function clickMenu() {                 /*Função responsável por revelar e ocultar o menu lateral juntamente com a mudança de cor do botão */
     if (menu.style.display == "block") {
@@ -114,3 +124,4 @@ function enibirMensagemProducao03() {
     caixaProducao[2].style.visibility = "hidden"
 
 }
+
