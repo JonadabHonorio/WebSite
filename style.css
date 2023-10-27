@@ -486,21 +486,21 @@ main {
     Letter-spacing: 1.5px;
 }
 
-#soft-skills_item {
-    list-style-image: url(assets/Sobre/soft-skills_svg.svg);
-    
-}
 #graduacao_item {
     list-style-image: url(assets/Sobre/graduacao_svg.svg);
-    
+  
 }
-#experiencias_item {
+#hardSkills_item {
     list-style-image: url(assets/Sobre/experiencia_svg.svg);
 }
 #objetivos_item {
     list-style-image: url(assets/Sobre/objetivo_svg.svg); 
 }
-  
+#softSkills_item {
+    list-style-image: url(assets/Sobre/soft-skills_svg.svg);
+    
+}
+
 #info_sobre01_774px {       /*Tratamento para Responividade das informações da lista "lista_conteúdo" partir de 774px*/
     display: none;
 }
@@ -554,7 +554,6 @@ main {
 }    
  
 .card {  
-    opacity: 1;
     width: 250px;
     height: 370px;
     padding: 5px;
@@ -564,7 +563,30 @@ main {
     border: 1px solid #FF6000;
     border-radius: 10px;
     transition: 0.3s;
+    
        
+}
+
+#efeitoClickProjeto {
+    background-color: #FF6000;
+    
+}
+
+@keyframes pulsarCard {
+
+    0% {
+        transform: scale(1.1);
+    }
+
+    80% {
+        transform: scale(1.0);
+    }
+
+    100% {
+        
+        transform: scale(1.1);
+    }
+
 }
 
 .card:hover {
@@ -653,8 +675,6 @@ main {
     top: 5px;  
 
 }
-
-
 
 .mensagem_links_projeto {
     font-size: 12px;
