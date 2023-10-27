@@ -468,7 +468,7 @@ main {
 }
 
 #container_conteudo_sobre {
-    margin: 30px 10px 10px 120px;
+    margin: 30px 10px 10px 117px;
     text-align: left; 
     
 }
@@ -488,9 +488,11 @@ main {
 
 #soft-skills_item {
     list-style-image: url(assets/Sobre/soft-skills_svg.svg);
+    
 }
 #graduacao_item {
     list-style-image: url(assets/Sobre/graduacao_svg.svg);
+    
 }
 #experiencias_item {
     list-style-image: url(assets/Sobre/experiencia_svg.svg);
