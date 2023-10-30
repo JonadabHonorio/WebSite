@@ -6,16 +6,21 @@ const caixaRepositorio = document.querySelectorAll(".container_mensagem_reposito
 const caixaProducao = document.querySelectorAll(".container_mensagem_producao_projeto");
 const iconesExternos = document.querySelectorAll(".icone_link_externo");
 const projetosCard = document.querySelectorAll(".card");
-const efeitoClick = document.querySelector("#efeitoClickProjeto");
 
 
-/*projetosCard[0].addEventListener('click', () => {
-    projetosCard[0].classList.toggle('efeitoClick')
-})*/
 
-function clickProjeto() {
-    projetosCard[0].style.display = "none"
-}
+projetosCard[0].addEventListener('click', function() {
+    for(i = 0 ; i < projetosCard.length; i++) {
+        var contador = i 
+        console.log(contador)
+        projetosCard[contador].style.animationName= ""
+        setTimeout(() => projetosCard[contador].style.animation = "pulsarCard 1s linear", 5)
+    }
+    
+    
+})
+    
+   
 
 function clickMenu() {                 /*Função responsável por revelar e ocultar o menu lateral juntamente com a mudança de cor do botão */
     if (menu.style.display == "block") {
