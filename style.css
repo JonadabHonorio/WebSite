@@ -562,14 +562,7 @@ main {
     box-shadow: 1px 1px 3px #0000006c;
     border: 1px solid #FF6000;
     border-radius: 10px;
-    transition: 0.3s;
-    
-       
-}
-
-#efeitoClickProjeto {
-    background-color: #FF6000;
-    
+    transition: 0.3s;   
 }
 
 @keyframes pulsarCard {
