@@ -4,23 +4,8 @@ const caixaMensagemLinksExternos = document.querySelectorAll(".container_mensage
 const caixaLinkedin = document.querySelector("#container_link_Linkedin");
 const caixaRepositorio = document.querySelectorAll(".container_mensagem_repositorio_projeto");
 const caixaProducao = document.querySelectorAll(".container_mensagem_producao_projeto");
-const iconesExternos = document.querySelectorAll(".icone_link_externo");
 const projetosCard = document.querySelectorAll(".card");
 
-
-
-projetosCard[0].addEventListener('click', function() {
-    for(i = 0 ; i < projetosCard.length; i++) {
-        var contador = i 
-        console.log(contador)
-        projetosCard[contador].style.animationName= ""
-        setTimeout(() => projetosCard[contador].style.animation = "pulsarCard 1s linear", 5)
-    }
-    
-    
-})
-    
-   
 
 function clickMenu() {                 /*Função responsável por revelar e ocultar o menu lateral juntamente com a mudança de cor do botão */
     if (menu.style.display == "block") {
@@ -66,7 +51,7 @@ function enibirMensagemEmail() {
 
 
 
-function exibirMensagemRepositorio01() {      /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do PROJETO01 ao passar o mouse*/  
+function exibirMensagemRepositorio01() {      /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do Projeto01 ao passar o mouse*/  
     caixaRepositorio[0].style.visibility = "visible"
     
 }
@@ -88,7 +73,7 @@ function enibirMensagemProducao01() {
 
 
 
-function exibirMensagemRepositorio02() {      /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do PROJETO02 ao passar o mouse*/  
+function exibirMensagemRepositorio02() {      /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do Projeto02 ao passar o mouse*/  
     caixaRepositorio[1].style.visibility = "visible"
     
 }
@@ -110,7 +95,7 @@ function enibirMensagemProducao02() {
 
 
 
-function exibirMensagemRepositorio03() {      /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do PROJETO03 ao passar o mouse*/  
+function exibirMensagemRepositorio03() {      /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do Projeto03 ao passar o mouse*/  
     caixaRepositorio[2].style.visibility = "visible"
     
 }
@@ -130,3 +115,20 @@ function enibirMensagemProducao03() {
 
 }
 
+
+projetosCard[0].addEventListener('click', function() {  /*Função responsável pela animação ao clicar sob o card do Projeto01 */
+        projetosCard[0].style.animationName= ""
+        setTimeout(() => projetosCard[0].style.animation = "pulsarCard 0.3s linear", 5)
+
+})
+
+projetosCard[1].addEventListener('click', function() {  /*Função responsável pela animação ao clicar sob o card do Projeto02 */
+        projetosCard[1].style.animationName= ""
+        setTimeout(() => projetosCard[1].style.animation = "pulsarCard 0.3s linear", 5)
+      
+})
+projetosCard[2].addEventListener('click', function() {  /*Função responsável pela animação ao clicar sob o card do Projeto03 */
+        projetosCard[2].style.animationName= ""
+        setTimeout(() => projetosCard[2].style.animation = "pulsarCard 0.3s linear", 5)
+      
+})
