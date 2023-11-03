@@ -277,6 +277,7 @@ body{
 
 #container_links_internos {
     align-items: center;
+    text-align: center;
     position: relative;
     height: 100vh;
     text-align: center;
@@ -287,15 +288,18 @@ body{
 
 #links_internos {
     position: relative;
-    top: 60px;
+    top: 40px;
     list-style-type: none;
     font-size: 16px;
       
 }
 
 .elementos {
-    padding: 30px;
+    
+    width: 150px;
+    height: 30px;
     transition: 0.2s;
+    padding: 30px;
     
 }
 
@@ -305,9 +309,12 @@ body{
 }
 
 .elementos_link_interno {
+    display: block;
+    height: 100%;
     text-decoration: none;
     color: #F0F0F0;
     
+
 }
 
  
@@ -595,7 +602,7 @@ main {
     width: 230px;
     height: 170px;
     margin-left: 9px;
-  
+    object-fit: contain;
 }
 
 .foto_projeto {
