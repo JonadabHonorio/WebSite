@@ -9,7 +9,8 @@ const projetosCard = document.querySelectorAll(".card");
 const janelaNavegador = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth; //Armazena tamanho da janela do navegador do cliente
 
 
-function clickMenu() {                 /*Função responsável por revelar e ocultar o menu lateral juntamente com a mudança de cor do botão */
+
+function clickMenu() {           /*Função responsável por revelar e ocultar o menu lateral juntamente com a mudança de cor do botão */
     if (menu.style.display == "block") {
         menu.style.display = "none"
         botaoMenu.style.color = "#FF6000"
@@ -18,17 +19,17 @@ function clickMenu() {                 /*Função responsável por revelar e ocu
         menu.style.display = "block"
         botaoMenu.style.color = "#F0F0F0"
     }   
-};
+}
 
-main.addEventListener('click', function() { /*Fução responsável certificar o tamanho da janela do cliente e "fechar" o Menu caso o usuário click fora dele*/
+
+main.addEventListener('click', function() { /*Fução responsável por fechar o menu qunado o usuário clica fora dele*/
     if (janelaNavegador <= 1170) {
         menu.style.display = "none"
-    }
-    
+    } 
 }) 
 
                                     
-function exibirMensagemGithub() {       /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do MENU ao passar o mouse*/
+function exibirMensagemGithub() {            /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do MENU ao passar o mouse*/
     caixaMensagemLinksExternos[0].style.display = "block" 
             
 }
