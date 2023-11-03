@@ -1,10 +1,12 @@
 const menu = document.querySelector("#Menu");
 const botaoMenu = document.querySelector("#botao_menu");
+const main = document.querySelector("main");
 const caixaMensagemLinksExternos = document.querySelectorAll(".container_mensagem_links_externos");
 const caixaLinkedin = document.querySelector("#container_link_Linkedin");
 const caixaRepositorio = document.querySelectorAll(".container_mensagem_repositorio_projeto");
 const caixaProducao = document.querySelectorAll(".container_mensagem_producao_projeto");
 const projetosCard = document.querySelectorAll(".card");
+const janelaNavegador = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth; //Armazena tamanho da janela do navegador do cliente
 
 
 function clickMenu() {                 /*Função responsável por revelar e ocultar o menu lateral juntamente com a mudança de cor do botão */
@@ -17,6 +19,13 @@ function clickMenu() {                 /*Função responsável por revelar e ocu
         botaoMenu.style.color = "#F0F0F0"
     }   
 };
+
+main.addEventListener('click', function() { /*Fução responsável certificar o tamanho da janela do cliente e "fechar" o Menu caso o usuário click fora dele*/
+    if (janelaNavegador <= 1170) {
+        menu.style.display = "none"
+    }
+    
+}) 
 
                                     
 function exibirMensagemGithub() {       /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do MENU ao passar o mouse*/
