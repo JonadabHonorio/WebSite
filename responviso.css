@@ -1220,6 +1220,12 @@
 
 @media (max-width: 854px) {
     
+    #Introducao {
+        margin-left: 165px;
+
+    }
+
+
     #Formacao {
         margin-left: 193px;                                                                                                                             
         
@@ -1287,10 +1293,6 @@
 
 @media (max-width: 834px) {
 
-    #Introducao {
-        margin-left: 153px; 
-    }
-    
     #Formacao {
         margin-left: 213px;                                                                                                                             
         
@@ -1338,7 +1340,7 @@
 @media (max-width: 814px) {
 
     #Introducao {
-        margin-left: 173px; 
+        margin-left: 180px; 
     }
     
     #Formacao {
@@ -1364,7 +1366,7 @@
 @media (max-width: 804px) {
 
     #Introducao {
-        margin-left: 193px; 
+        margin-left: 183px; 
     }
     
     #Formacao {
@@ -1402,7 +1404,7 @@
 @media (max-width: 794px) {
 
     #Introducao {
-        margin-left: 203px; 
+        margin-left: 190px; 
     }
     
     #Formacao {
@@ -1424,7 +1426,7 @@
 @media (max-width: 784px) {
 
     #Introducao {
-        margin-left: 213px; 
+        margin-left: 195px; 
     }
     
     #Formacao {
@@ -1450,7 +1452,7 @@
 @media (max-width: 774px) {
 
     #Introducao {
-        margin-left: 213px; 
+        margin-left: 199px; 
     }
     
     #Formacao {
@@ -1535,7 +1537,7 @@
 @media (max-width: 754px) {
 
     #Introducao {
-        margin-left: 223px; 
+        margin-left: 215px; 
     }
     
     #Formacao {
@@ -1596,7 +1598,7 @@
 @media (max-width: 734px) {
 
     #Introducao {
-        margin-left: 233px; 
+        margin-left: 225px; 
     }
     
     #Formacao {
@@ -1622,7 +1624,7 @@
 @media (max-width: 724px) {
 
     #Introducao {
-        margin-left: 243px; 
+        margin-left: 230px; 
     }
     
     #Formacao {
@@ -1664,7 +1666,7 @@
 @media (max-width: 714px) {
 
     #Introducao {
-        margin-left: 253px; 
+        margin-left: 235px; 
     }
     
     #Formacao {
@@ -1688,6 +1690,10 @@
 }
 
 @media (max-width: 704px) {
+    
+    #Introducao {
+        margin-left: 240px; 
+    }
 
     #Formacao {
         margin-left: 343px;                                                                                                                             
@@ -1710,6 +1716,10 @@
 }
 
 @media (max-width: 694px) {
+
+    #Introducao {
+        margin-left: 245px; 
+    }
 
     #Formacao {
         margin-left: 353px;
@@ -1757,6 +1767,10 @@
 
 @media (max-width: 684px) {
 
+    #Introducao {
+        margin-left: 250px; 
+    }
+
     #Formacao {
         margin-left: 363px;                                                                                                                             
         
@@ -1774,6 +1788,10 @@
 }
 
 @media (max-width: 674px) {
+
+    #Introducao {
+        margin-left: 255px; 
+    }
 
     #Formacao {
         margin-left: 373px;                                                                                                                             
@@ -1866,6 +1884,10 @@
 }
 
 @media (max-width: 644px) {
+    
+    #Introducao {
+        margin-left: 275px; 
+    }
 
     #Formacao {
         margin-left: 403px;                                                                                                                             
@@ -1921,6 +1943,10 @@
 
 @media (max-width: 624px) {
 
+    #Introducao {
+        margin-left: 285px; 
+    }
+
     #Formacao {
         margin-left: 423px;                                                                                                                             
         
@@ -1968,7 +1994,7 @@
 @media (max-width: 604px) {
 
     #Introducao {
-        margin-left: 303px; 
+        margin-left: 295px; 
     }
 
 
@@ -1992,6 +2018,9 @@
 }
 
 @media (max-width: 594px) {
+    #Introducao {
+        margin-left: 302px; 
+    }
 
     #Formacao {
         margin-left: 453px;                                                                                                                             
@@ -2017,6 +2046,10 @@
 }
 
 @media (max-width: 584px) {
+
+    #Introducao {
+        margin-left: 305px; 
+    }
 
     #Formacao {
         margin-left: 463px;                                                                                                                             
