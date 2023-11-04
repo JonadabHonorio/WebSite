@@ -25,6 +25,7 @@ function clickMenu() {           /*Função responsável por revelar e ocultar o
 main.addEventListener('click', function() { /*Fução responsável por fechar o menu qunado o usuário clica fora dele*/
     if (janelaNavegador <= 1170) {
         menu.style.display = "none"
+        botaoMenu.style.color = "#FF6000"
     } 
 }) 
 
