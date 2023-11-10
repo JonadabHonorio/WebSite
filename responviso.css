@@ -21,14 +21,18 @@
         display: none;
     }
 
-    #info_sobre02_804px{    
+    #info_sobre02_604px {
         display: none;
     }
 
     #info_sobre03_804px {
         display: none;
     }
-    
+
+    #info_sobre04_604px {
+        display: none;
+    }
+
     #info_sobre04_804px {
         display: none;
     }
@@ -380,7 +384,6 @@
 @media (max-width: 1170px) {
     
     main {
-        
         margin:auto;
         margin-right: 5px;
     }
@@ -392,15 +395,13 @@
     }
 
     #Introducao {
-        
         margin-left: 0px;
        
     }
 
     #Formacao {
         margin-left: 0px;
-        
-        
+ 
     }
 
     #Sobre {
@@ -416,7 +417,15 @@
         margin-left: 0px;
      
     }
-    
+
+    .card:hover {
+        transform: scale(1);
+    }
+
+    .icone_card:hover {
+        transform: scale(1.1);
+    }
+
     #container_projetos {
         margin-right: 0px;
     }
@@ -1151,9 +1160,17 @@
         margin-left: 163px; 
     }
 
+    .card {
+        margin-bottom: 50px;
+    }
+
     #container_projetos {
-        padding: 0px 110px 20px 10px;;
+        padding: 0px 168px 20px 10px;
     }  
+
+    #projeto03 {
+        margin-top: 20px;
+    }
      
 
 }
@@ -1179,13 +1196,6 @@
         margin-left: 173px; 
     }
 
-    #container_projetos {
-        padding: 0px 168px 20px 10px;
-    }  
-
-    #projeto03 {
-        margin-top: 20px;
-    }
      
 }
     
@@ -1370,7 +1380,6 @@
     }
     
     #Formacao {
-        background-color: #454545;
         margin-left: 243px;                                                                                                                             
         
     }
@@ -1470,15 +1479,15 @@
         display: none;
     }
 
-    #info_sobre02 {
-        display: none;
-    }
-
     #info_sobre01_774px {
         display: block;
     }
 
-    #info_sobre02_774px {
+    #info_sobre04 {
+        display: none;
+    }
+
+    #info_sobre04_774px { 
         display: block;
     }
 
@@ -1831,10 +1840,7 @@
         display: none;
     } 
 
-    #info_sobre02_774px {
-        display: none;
-    }
-
+   
     #info_sobre03_804px {
         display: none;
     }
@@ -1843,13 +1849,10 @@
         display: block;
     }
 
-    #info_sobre02_664px {
-        display: block;
-    }
-
     #info_sobre03_664px {
         display: block;
     }
+    
 
     #Projetos {
         margin-left: 383px; 
@@ -2006,6 +2009,14 @@
     #Sobre {
         margin-left: 443px;
         
+    }
+
+    #info_sobre02 {
+        display: none;
+    }
+
+    #info_sobre02_604px {
+        display: block;
     }
 
     #Projetos {
