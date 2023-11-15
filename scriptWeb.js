@@ -6,8 +6,10 @@ const caixaLinkedin = document.querySelector("#container_link_Linkedin");
 const caixaRepositorio = document.querySelectorAll(".container_mensagem_repositorio_projeto");
 const caixaProducao = document.querySelectorAll(".container_mensagem_producao_projeto");
 const projetosCard = document.querySelectorAll(".card");
+const linksProjeto = document.querySelectorAll(".icone_card");
 const janelaNavegador = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth; //Armazena tamanho da janela do navegador do cliente
 
+console.log(linksProjeto)
 
 
 function clickMenu() {           /*Função responsável por revelar e ocultar o menu lateral juntamente com a mudança de cor do botão */
@@ -128,18 +130,32 @@ function enibirMensagemProducao03() {
 
 
 projetosCard[0].addEventListener('click', function() {  /*Função responsável pela animação ao clicar sob o card do Projeto01 */
-        projetosCard[0].style.animationName= ""
-        setTimeout(() => projetosCard[0].style.animation = "pulsarCard 0.3s linear", 5)
+        if(janelaNavegador >= 1170) {
+            projetosCard[0].style.animationName= ""
+            setTimeout(() => projetosCard[0].style.animation = "pulsarCard 0.3s linear", 5)
+        } else {
+            projetosCard[0].style.animationName= ""
+            setTimeout(() => projetosCard[0].style.animation = "mobilePulsarCard 0.3s linear", 5)
+        }
 
 })
 
 projetosCard[1].addEventListener('click', function() {  /*Função responsável pela animação ao clicar sob o card do Projeto02 */
-        projetosCard[1].style.animationName= ""
-        setTimeout(() => projetosCard[1].style.animation = "pulsarCard 0.3s linear", 5)
-      
+        if(janelaNavegador >= 1170) {
+            projetosCard[1].style.animationName= ""
+            setTimeout(() => projetosCard[1].style.animation = "pulsarCard 0.3s linear", 5)
+        } else {
+            projetosCard[1].style.animationName= ""
+            setTimeout(() => projetosCard[1].style.animation = "mobilePulsarCard 0.3s linear", 5)
+        }
 })
+
 projetosCard[2].addEventListener('click', function() {  /*Função responsável pela animação ao clicar sob o card do Projeto03 */
-        projetosCard[2].style.animationName= ""
-        setTimeout(() => projetosCard[2].style.animation = "pulsarCard 0.3s linear", 5)
-      
+        if(janelaNavegador >= 1170) {
+            projetosCard[2].style.animationName= ""
+            setTimeout(() => projetosCard[2].style.animation = "pulsarCard 0.3s linear", 5)
+        } else {
+            projetosCard[2].style.animationName= ""
+            setTimeout(() => projetosCard[2].style.animation = "mobilePulsarCard 0.3s linear", 5)
+        }
 })
