@@ -170,6 +170,12 @@
 
     #Projetos {
         margin-left: 70px;
+        
+
+    }
+
+    #container_projetos {
+        margin-right: 10px;
     }
 
 }
@@ -201,6 +207,10 @@
         margin-right: 20px;
     }
 
+    #container_projetos {
+        margin-right: 25px;
+    }
+
 }
 
 @media (max-width: 1230px) {
@@ -229,7 +239,10 @@
     #container_projetos {
         margin-right: 30px;
     }
-
+    
+    #container_projetos {
+        margin-right: 35px;
+    }
 
 }
 
@@ -258,6 +271,10 @@
 
     #container_projetos {
         margin-right: 40px;
+    }
+
+    #container_projetos {
+        margin-right: 47px;
     }
 
 }
@@ -289,6 +306,9 @@
         margin-right: 50px;
     }
 
+    #container_projetos {
+        margin-right: 65px;
+    }
 
 }
 
@@ -319,6 +339,9 @@
         margin-right: 60px;
     }
 
+    #container_projetos {
+        margin-right: 75px;
+    }
 
 }
 
@@ -347,6 +370,10 @@
 
     #container_projetos {
         margin-right: 70px;
+    }
+
+    #container_projetos {
+        margin-right: 90px;
     }
 
 
@@ -378,6 +405,11 @@
     #container_projetos {
         margin-right: 80px;
     }
+
+    #container_projetos {
+        margin-right: 105px;
+    }
+
 
 }
 
