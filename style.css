@@ -462,6 +462,19 @@ main {
     display: none;
 }
 
+#info_curso01_544px {      /*Tratamento para Responividade das informações do curso a partir de 544px*/
+    display: none;
+}
+
+#info_curso02_544px {
+    display: none;
+}
+
+#container_situacao_curso01_544px {
+    display: none;
+}
+
+
 #Sobre {
    
     height: 410px;
