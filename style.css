@@ -365,7 +365,6 @@ main {
 #container_texto_introducao {
     font-size: 17px;
     Letter-spacing: 1.5px;
-       
 }
 
 .info_introducao {
@@ -472,6 +471,7 @@ main {
 
 #container_situacao_curso01_544px {
     display: none;
+
 }
 
 
@@ -550,6 +550,14 @@ main {
 }
 
 #info_sobre03_594px {       /*Tratamento para Responividade das informações da lista "lista_conteúdo" partir de 594px*/
+    display: none;
+}
+
+#info_sobre01_544px {       /*Tratamento para Responividade das informações da lista "lista_conteúdo" partir de 544px*/
+    display: none;
+}
+
+#info_sobre02_534px {       /*Tratamento para Responividade das informações da lista "lista_conteúdo" partir de 534px*/
     display: none;
 }
 
