@@ -2218,6 +2218,11 @@
         margin-left: 329px; 
     }
 
+    #container_texto_introducao {
+        Letter-spacing: 1.2px;
+           
+    }
+
     #Formacao {
         margin-left: 493px;                                                                                                                            
     }
@@ -2245,7 +2250,8 @@
     }
 
     #Formacao {
-        margin-left: 503px;                                                                                                                            
+        margin-left: 503px;
+        height: 330px;                                                                                                                            
     }
 
     #info_curso01_694px {
@@ -2270,22 +2276,28 @@
 
     #container_situacao_curso01_544px {
         display: block;
-        left: 361px;    
-        top: -156px;   
+        position: absolute;
+        left: 336px;    
+        top: 578px;   
     }
 
-    #container_situacao_curso01 {
-        left: 295px;
-        top: -156px;   
+    #container_situacao_curso02 {
+        top: -45px;
     }
-
 
     #Sobre {
         margin-left: 503px;
         
     }  
 
-    
+    #info_sobre01_664px {
+        display: none;
+    }
+
+    #info_sobre01_544px {
+        display: block;
+    }
+
     #Projetos {
         margin-left: 503px; 
     }
@@ -2294,3 +2306,70 @@
         padding-right: 505px;
     }
 }
+
+
+@media (max-width: 534px) {
+   
+    #Introducao {
+        margin-left: 345px; 
+    }
+
+    #container_texto_introducao {
+        Letter-spacing: 1.0px;
+           
+    }
+
+    #Formacao {
+        margin-left: 513px;                                                                                                                         
+    }
+
+    #Sobre {
+        margin-left: 513px;
+        
+    }  
+
+    #info_sobre02_604px {
+        display: none;
+    }
+
+    #info_sobre02_534px {
+        display: block;
+    }
+    
+    #Projetos {
+        margin-left: 513px; 
+    }
+
+    #container_projetos {
+        padding-right: 505px;
+    }
+}
+
+@media (max-width: 524px) {
+   
+    #Introducao {
+        margin-left: 353px; 
+    }
+
+    #container_texto_introducao {
+        Letter-spacing: 1.0px;
+           
+    }
+
+    #Formacao {
+        margin-left: 523px;                                                                                                                         
+    }
+
+    #Sobre {
+        margin-left: 523px;
+        
+    }  
+
+    
+    #Projetos {
+        margin-left: 523px; 
+    }
+
+}
+
+
