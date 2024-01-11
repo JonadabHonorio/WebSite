@@ -2092,7 +2092,6 @@
     }
 
     #Formacao {
-        background-color: #454545;
         margin-left: 453px;                                                                                                                             
         
     }
@@ -2364,10 +2363,68 @@
         margin-left: 523px;
         
     }  
-
     
     #Projetos {
         margin-left: 523px; 
+    }
+
+}
+
+
+@media (max-width: 514px) {
+
+    #container_texto_introducao {
+        font-size: 16px;   
+    }
+
+    #Formacao {
+        margin-left: 533px;                                                                                                                         
+    }
+
+    #Sobre {
+        margin-left: 533px;
+        
+    }
+    
+    #info_sobre03_594px {   
+        display: none;
+    }
+
+    #info_sobre03_514px {       
+        display: block;
+    }
+
+    #info_sobre04_774px {
+        display: none;
+    }  
+
+    #info_sobre04_514px {
+        display: block;
+    }  
+    
+    #Projetos {
+        margin-left: 533px; 
+    }
+
+}
+
+@media (max-width: 500px) {
+   
+    #Introducao {
+        margin-left: 362px; 
+    }
+
+    #Formacao {
+        margin-left: 543px;                                                                                                                         
+    }
+
+    #Sobre {
+        margin-left: 543px;
+        
+    }  
+ 
+    #Projetos {
+        margin-left: 543px; 
     }
 
 }
