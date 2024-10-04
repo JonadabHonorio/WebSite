@@ -9,16 +9,18 @@ const projetosCard = document.querySelectorAll(".card");
 const linksProjeto = document.querySelectorAll(".icone_card");
 const janelaNavegador = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth; //Armazena tamanho da janela do navegador do cliente
 
-console.log(linksProjeto)
+console.log(caixaMensagemLinksExternos) /*Console.log feito a carater de teste */
 
 
 function clickMenu() {           /*Função responsável por revelar e ocultar o menu lateral juntamente com a mudança de cor do botão */
     if (menu.style.display == "block") {
         menu.style.display = "none"
+        menu.style.animation = "saida 0.3s"
         botaoMenu.style.color = "#FF6000"
         
     } else {
         menu.style.display = "block"
+        menu.style.animation = "slide 0.3s"
         botaoMenu.style.color = "#F0F0F0"
     }   
 }
