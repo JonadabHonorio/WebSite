@@ -48,6 +48,7 @@ body{
 
 #Pai {
     padding: 0px 10px 10px 0px;
+    /*margin: 0px 300px 0px 0px;*/
 }
 
 #botao_menu {
@@ -320,10 +321,11 @@ body{
  
 
 main {
+    
     float: right;
     width: 1000px;
     height: 100%; 
-    padding: 10px 20px 20px 20px ;      
+    padding: 10px 20px 20px 20px;   
 }
 
 .linha_vertical_main {
