@@ -2567,3 +2567,11 @@
           
     }
 }
+
+@media (max-height: 600px){      
+    #links_internos {
+        top: 5px;
+          
+    }
+}
+
