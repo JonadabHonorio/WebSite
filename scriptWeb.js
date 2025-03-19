@@ -6,13 +6,14 @@ const caixaLinkedin = document.querySelector("#container_link_Linkedin");
 const caixaRepositorio = document.querySelectorAll(".container_mensagem_repositorio_projeto");
 const caixaProducao = document.querySelectorAll(".container_mensagem_producao_projeto");
 const projetosCard = document.querySelectorAll(".card");
+const caixaLinksExternos = document.querySelectorAll(".container_li");
 const linksProjeto = document.querySelectorAll(".icone_card");
 const janelaNavegador = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth; //Armazena tamanho da janela do navegador do cliente
 
-console.log(caixaMensagemLinksExternos) /*Console.log feito a carater de teste */
+console.log(caixaLinksExternos[0]); /*Console.log feito a carater de teste */
 
 
-function clickMenu() {           /*Função responsável por revelar e ocultar o menu lateral juntamente com a mudança de cor do botão */
+function clickMenu() {   /*Função responsável por revelar e ocultar o menu lateral juntamente com a mudança de cor do botão */
     if (menu.style.display == "block") {
         menu.style.display = "none"
         menu.style.animation = "saida 0.3s"
@@ -26,15 +27,15 @@ function clickMenu() {           /*Função responsável por revelar e ocultar o
 }
 
 
-main.addEventListener('click', function() { /*Fução responsável por fechar o menu qunado o usuário clica fora dele*/
+main.addEventListener('click', function() { /*Função responsável por fechar o menu qunado o usuário clica fora dele*/
     if (janelaNavegador <= 1170) {
         menu.style.display = "none"
         botaoMenu.style.color = "#FF6000"
     } 
 }) 
 
-                                    
-function exibirMensagemGithub() {            /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do MENU ao passar o mouse*/
+/* */                                    
+function exibirMensagemGithub() {  /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do MENU ao passar o mouse*/
     caixaMensagemLinksExternos[0].style.display = "block" 
             
 }
