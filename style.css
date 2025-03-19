@@ -27,7 +27,7 @@ html {
 body{
     font-family: 'Pathway Extreme', sans-serif;
     color: #F0F0F0;
-    background-color: #393646;
+    background-color:#393646;
     height: 100%;
     width: 100%;
     overflow-x: hidden;  
@@ -604,7 +604,7 @@ main {
     
 }
 
-@keyframes pulsarCard {             /*Animação ao clicar no Projeto enquanto Desktop*/
+@keyframes pulsarCard {             /*Animação ao clicar no card do Projeto enquanto Desktop*/
 
     0% {
         transform: scale(1.1);
@@ -621,7 +621,7 @@ main {
 
 }
 
-@keyframes mobilePulsarCard {       /*Animação ao clicar no Projeto enquanto Mobile*/
+@keyframes mobilePulsarCard {       /*Animação ao clicar no card do Projeto enquanto Mobile*/
 
     0% {
         transform: scale(1.0);
