@@ -34,8 +34,21 @@ main.addEventListener('click', function() { /*Função responsável por fechar o
     } 
 }) 
 
-/* */                                    
-function exibirMensagemGithub() {  /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do MENU ao passar o mouse*/
+
+
+/*caixaLinksExternos[0].addEventListener('mouseenter', function() { 
+    if (caixaMensagemLinksExternos[0].style.display != "block") {
+        caixaMensagemLinksExternos[0].style.display = "block"
+    } 
+
+});
+
+caixaLinksExternos[0].addEventListener('mouseout', function() {
+    caixaMensagemLinksExternos[0].style.display = "none"
+
+});   */
+
+function exibirMensagemGithub() {  /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do MENU ao passar o mouse */
     caixaMensagemLinksExternos[0].style.display = "block" 
             
 }
@@ -43,7 +56,7 @@ function exibirMensagemGithub() {  /* Grupo de Funções que revelam e ocultam a
 function enibirMensagemGithub() {
     caixaMensagemLinksExternos[0].style.display = "none"
 
-}
+} 
 
 function exibirMensagemLinkedin() {
     caixaLinkedin.style.display = "block"
