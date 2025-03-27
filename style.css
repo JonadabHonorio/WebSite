@@ -30,25 +30,21 @@ body{
     background-color:#393646;
     height: 100%;
     width: 100%;
-    overflow-x: hidden;  
-    
+    overflow-x: hidden;     
 }
 
 ::-webkit-scrollbar {
     background: #454545;  
-  
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: #454545;    
     border-radius: 20px;       
     border: 1px solid #000000;      
-     
 }
 
 #Pai {
     padding: 0px 10px 10px 0px;
-    /*margin: 0px 300px 0px 0px;*/
 }
 
 #botao_menu {
@@ -78,32 +74,27 @@ body{
     border-radius: 10px; 
     align-items: center;
     z-index: 1;
-      
 }
 
 @keyframes slide {
     from {
         opacity: 0;
         transform: translateX(-50px);
-        
     }
     to {
         opacity: 1;
-        transform: translateX(0px);
-           
+        transform: translateX(0px);  
     }
 }
 
 @keyframes saida {
     from {
         opacity: 1;
-        transform: translateX(0px);
-          
+        transform: translateX(0px); 
     }
     to {
         opacity: 0;
-        transform: translateX(-30px);
-        
+        transform: translateX(-30px);  
     }
 
 }
@@ -133,7 +124,6 @@ body{
     position: absolute;
     left: 55px;
     top: 228px;
-   
 }
 
 #localidade_menu {
@@ -149,7 +139,6 @@ body{
     display: flex;
     justify-content:space-evenly;
     flex-direction: row;
- 
 }
 
 .container_li {
@@ -157,8 +146,7 @@ body{
     align-items: center;
     width: 60px;
     height: 45px;
-    transition: 0.2s;
-     
+    transition: 0.2s;     
 }
 .container_li:hover {
     transform: scale(1.1);
@@ -189,19 +177,16 @@ body{
 .icone:hover {
     cursor: pointer;
     transition: 0.3\ s linear;
-    
 }
 
 @keyframes slide-mensagem {
     from {
         opacity: 0;
         transform: translateX(-50px);
-        
     }
     to {
         opacity: 1;
-        transform: translateX(0px);
-           
+        transform: translateX(0px);   
     }
 }
 
@@ -216,9 +201,7 @@ body{
     top: 250px;
     transition: 0.2s;
     animation-duration: 1s;
-    animation-name: slide-mensagem;
-    
-        
+    animation-name: slide-mensagem;    
 }   
 
 #container_link_Linkedin {
@@ -232,8 +215,7 @@ body{
     top: 250px;
     transition: 0.1s;
     animation-duration: 1s;
-    animation-name: slide-mensagem;
-    
+    animation-name: slide-mensagem;  
 }
 
 #mensagem_link_Likedin {
@@ -243,7 +225,7 @@ body{
     margin-top: 13px;
 }
 
-#mensagem_link_Likedin::after { /*Elemento que cria a parte vsual da caixa de mensagem, o "rabinho" da caixa*/
+#mensagem_link_Likedin::after { /* Elemento que cria a parte vsual da caixa de mensagem, o "rabinho" da caixa */
     content: "";
     border-style: solid;
     border-width: 6px;
@@ -260,7 +242,7 @@ body{
     margin-top: 13px;
 }
 
-.mensagem_links_externos::after { /*Elemento que cria a parte vsual da caixa de mensagem, o "rabinho" */
+.mensagem_links_externos::after { /* Elemento que cria a parte vsual da caixa de mensagem, o "rabinho" */
     content: "";
     border-style: solid;
     border-width: 6px;
@@ -273,7 +255,6 @@ body{
 #linha_horizontal_menu {
     width: 100%;
     border: 1px solid #42403e;
-    
 }
 
 #container_links_internos {
@@ -284,44 +265,34 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
-
 }
 
 #links_internos {
     position: relative;
     top: 40px;
     list-style-type: none;
-    font-size: 16px;
-      
+    font-size: 16px;   
 }
 
 .elementos {
-    
     width: 150px;
     height: 30px;
     transition: 0.2s;
-    padding: 30px;
-    
+    padding: 30px;  
 }
 
 .elementos:hover {
     transform: scale(1.1);
-
 }
 
 .elementos_link_interno {
     display: block;
     height: 100%;
     text-decoration: none;
-    color: #F0F0F0;
-    
-
+    color: #F0F0F0;   
 }
 
- 
-
 main {
-    
     float: right;
     width: 1000px;
     height: 100%; 
@@ -337,20 +308,17 @@ main {
     margin-right: 5px;
 }
 
-
 #Introducao { 
     height: 260px;
     position: relative; 
     z-index: 0;
     text-align: left;
-    align-items: center;
-          
+    align-items: center;         
 }
 
 #container_conteudo_introducao {
     margin-top: 15px;
-    margin-left: 16px
-    
+    margin-left: 16px 
 }
 
 #nome_introducao {
@@ -447,7 +415,6 @@ main {
     position: relative;
     left: 375px;
     top: -69px;
-    
 }
 
 .situacao_curso {
@@ -455,7 +422,7 @@ main {
     Letter-spacing: 1.5px;
 }
 
-#info_curso01_694px {       /*Tratamento para Responividade das informações do curso a partir de 694px*/
+#info_curso01_694px {       /* Tratamento para Responividade das informações do curso a partir de 694px */
     display: none;
 }
 
@@ -463,7 +430,7 @@ main {
     display: none;
 }
 
-#info_curso01_544px {      /*Tratamento para Responividade das informações do curso a partir de 544px*/
+#info_curso01_544px {      /* Tratamento para Responividade das informações do curso a partir de 544px */
     display: none;
 }
 
@@ -473,26 +440,21 @@ main {
 
 #container_situacao_curso01_544px {
     display: none;
-
 }
 
-
 #Sobre {
-   
     height: 410px;
     padding: 9px 20px 20px 0px;
 }
 
 #titulo_sobre {
     font-size: 25px;
-    margin: 10px 10px 0px 0px;
-    
+    margin: 10px 10px 0px 0px;   
 }
 
 #container_conteudo_sobre {
     margin: 30px 10px 10px 117px;
-    text-align: left; 
-    
+    text-align: left;    
 }
     
 .item_lista {
@@ -519,11 +481,10 @@ main {
     list-style-image: url(assets/Sobre/objetivo_svg.svg); 
 }
 #softSkills_item {
-    list-style-image: url(assets/Sobre/soft-skills_svg.svg);
-    
+    list-style-image: url(assets/Sobre/soft-skills_svg.svg); 
 }
 
-#info_sobre01_774px {       /*Tratamento para Responividade das informações da lista "lista_conteúdo" a partir de 774px*/
+#info_sobre01_774px {  /* Tratamento para Responsividade das informações da lista "lista_conteúdo" a partir de 774px */
     display: none;
 }
 
@@ -539,7 +500,7 @@ main {
     display: none;
 }
 
-#info_sobre01_664px {       /*Tratamento para Responividade das informações da lista "lista_conteúdo" a partir de 664px*/
+#info_sobre01_664px {   /* Tratamento para Responsividade das informações da lista "lista_conteúdo" a partir de 664px */
     display: none;
 }
 
@@ -551,19 +512,19 @@ main {
     display: none;
 }
 
-#info_sobre03_594px {       /*Tratamento para Responividade das informações da lista "lista_conteúdo" a partir de 594px*/
+#info_sobre03_594px {   /* Tratamento para Responsividade das informações da lista "lista_conteúdo" a partir de 594px */
     display: none;
 }
 
-#info_sobre01_544px {       /*Tratamento para Responividade das informações da lista "lista_conteúdo" a partir de 544px*/
+#info_sobre01_544px {   /* Tratamento para Responsividade das informações da lista "lista_conteúdo" a partir de 544px */
     display: none;
 }
 
-#info_sobre02_534px {       /*Tratamento para Responividade das informações da lista "lista_conteúdo" a partir de 534px*/
+#info_sobre02_534px {   /* Tratamento para Responsividade das informações da lista "lista_conteúdo" a partir de 534px */
     display: none;
 }
 
-#info_sobre03_514px {       /*Tratamento para Responividade das informações da lista "lista_conteúdo" a partir de 514px*/
+#info_sobre03_514px {   /* Tratamento para Responsividade das informações da lista "lista_conteúdo" a partir de 514px */
     display: none;
 }
 
@@ -582,13 +543,11 @@ main {
 }
 
 #container_projetos {
-    
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-  
 }    
  
 .card {  
@@ -600,11 +559,10 @@ main {
     box-shadow: 1px 1px 3px #0000006c;
     border: 1px solid #FF6000;
     border-radius: 10px;
-    transition: 0.3s;   
-    
+    transition: 0.3s;     
 }
 
-@keyframes pulsarCard {             /*Animação ao clicar no card do Projeto enquanto Desktop*/
+@keyframes pulsarCard {             /* Animação ao clicar no card do Projeto enquanto Desktop */
 
     0% {
         transform: scale(1.1);
@@ -618,10 +576,9 @@ main {
         
         transform: scale(1.1);
     }
-
 }
 
-@keyframes mobilePulsarCard {       /*Animação ao clicar no card do Projeto enquanto Mobile*/
+@keyframes mobilePulsarCard {       /* Animação ao clicar no card do Projeto enquanto Mobile */
 
     0% {
         transform: scale(1.0);
@@ -635,7 +592,6 @@ main {
         
         transform: scale(1.0);
     }
-
 }
 
 .card:hover {
@@ -657,8 +613,7 @@ main {
 .foto_projeto {
     width: 100%;
     height: 100%;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 }
 
 .icone_card  {
@@ -667,7 +622,6 @@ main {
     padding: 0px 5px 0px 5px;
     margin-top: 5px;
     transition: 0.2s;
-    
 }
 
 .icone_card:hover {
@@ -686,7 +640,6 @@ main {
     left: -55px;
     top: 220px;
     transition: 0.1s;
-    
 }
 
 .container_mensagem_repositorio_projeto::after {
@@ -697,7 +650,6 @@ main {
     position: absolute;
     right: -12px;
     top: 5px;  
-
 }
 
 .container_mensagem_producao_projeto {
@@ -722,7 +674,6 @@ main {
     position: absolute;
     left: -12px;
     top: 5px;  
-
 }
 
 .mensagem_links_projeto {
@@ -743,7 +694,7 @@ main {
     color: #F0F0F0;
     font-size: 14px;
     margin-top: 70px;
-}                                                        /* @MEDIA QUERY */
+}                                                        
 
 
 
