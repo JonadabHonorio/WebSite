@@ -17,7 +17,7 @@ function clickMenu() {   /*Função responsável por revelar e ocultar o menu la
     if (menu.style.display == "block") {
         menu.style.display = "none"
         menu.style.animation = "saida 0.3s"
-        botaoMenu.style.color = "#FF6000"
+        botaoMenu.style.color = "#FF6000"   
         
     } else {
         menu.style.display = "block"
@@ -34,9 +34,7 @@ main.addEventListener('click', function() { /*Função responsável por fechar o
     } 
 }) 
 
-
-
-/*caixaLinksExternos[0].addEventListener('mouseenter', function() { 
+/*caixaLinksExternos[0].addEventListener('mouseenter', function() { Compre a mesma função da função "exibirMensagemGithub()" com JS.
     if (caixaMensagemLinksExternos[0].style.display != "block") {
         caixaMensagemLinksExternos[0].style.display = "block"
     } 
