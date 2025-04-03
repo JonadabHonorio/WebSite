@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonadab Honorio | Developer </title>
+    <link rel="shortcut icon" href="assets/Favicon/faviconJB.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responviso.css">
+    
+</head>
+<body>
+
+<section id="Pai">
+<span class="material-symbols-outlined" id="botao_menu" onclick="clickMenu()">menu</span>
+    <section id="Menu">
+        <header>
+            <img id="avatar" src="assets/Menu/avatar_new.jpeg" alt="Foto de perfil do Jonadab"> 
+            <p id="nome_menu">Jonadab Honorio</p>
+            <p id="subtitulo_menu">Desenvolvedor Web | Full Stack</p> 
+                <div id="container_localidade">
+                    <img id="icon_local" src="assets/Menu/map.png" alt="Icone Marcador">
+                    <p id="localidade_menu">João Pessoa PB</p>  
+                </div> 
+        </header> 
+        <nav id="containter_links_externos">
+            <ul id="links_externos">
+                <div class="container_li">
+                    <li class="icone_link_externo" onMouseOver="exibirMensagemGithub()" onmouseout="enibirMensagemGithub()" ><a href="https://github.com/JonadabHonorio" target="_blank" rel="noopener noreferrer"><img  class="icones" id="icone_github" src="assets/Menu/github.svg" alt="Icone GitHub"></a></li> 
+                </div>
+                
+                <div class="container_li">
+                    <li class="icone_link_externo" onMouseOver="exibirMensagemLinkedin()" onmouseout="enibirMensagemLinkedin()"><a href="https://www.linkedin.com/in/jonadab-honorio-5a3440261/" target="_blank" rel="noopener noreferrer"><img class="icones" id="icone_linkedin" src="assets/Menu/linkedin.svg" alt="Icone Likedin"></a></li>
+                </div>
+                
+                <div class="container_li">
+                    <li class="icone_link_externo" onMouseOver="exibirMensagemEmail()" onmouseout="enibirMensagemEmail()"><a href="mailton:honoriojonadab@gmail.com" target="_blank" rel="noopener noreferrer"><img class="icones" id="icone_email" src="assets/Menu/gmail.svg" alt="Icone E-mail"></a></li>
+                </div>
+            </ul>
+        </nav> 
+        <div class="container_mensagem_links_externos">
+            <div class="mensagem_links_externos">
+                <p>GitHub</p>
+            </div>
+        </div>
+        <div id="container_link_Linkedin">
+            <div id="mensagem_link_Likedin">
+                <p>Linkedin</p>
+            </div>   
+        </div>
+        <div class="container_mensagem_links_externos">
+            <div class="mensagem_links_externos">
+                <p>E-mail</p>
+            </div>
+        </div> 
+        </div>
+        <div id="linha_horizontal_menu"></div>
+        <nav id="container_links_internos"> 
+            <ul id="links_internos">
+                <li class="elementos"><a class="elementos_link_interno"  href="#Pai">FORMAÇÃO</a></li>
+                <li class="elementos"><a class="elementos_link_interno"  href="#Sobre">SOBRE</a></li>
+                <li class="elementos"><a class="elementos_link_interno"  href="#Projetos">PROJETOS</a></li>
+            </ul>
+        </nav> 
+    </section>
+    <main>
+        <div id="Introducao">
+            <div id="container_conteudo_introducao">      
+                <h1 id="nome_introducao">Jonadab Honorio</h1>
+                <p id="subtitulo_introducao" class="info_introducao">Desenvolvedor Web | Full Stack</p>
+                <div id="container_texto_introducao">
+                    <p id="texto_introducao" class="info_introducao">
+                        Olá, me chamo Jonadab e esse é o meu Portfólio.<br>
+                        Estou na busca do primeiro estágio e Atualmente<br> 
+                        focando os estudos no desenvolvimento web com <br>as seguintes
+                        tecnologias: <strong>TypeScript</strong>, <strong>Node.js</strong>, <strong>JavaScript</strong><br> e <strong>Angular</strong>.
+                        Graduando <strong>Engenharia de Software</strong> pela UNIPÊ.
+                    </p> 
+                </div> 
+            </div>
+            <picture id="container_Img">
+                <source srcset="assets/Introdução/foto_introdução400.png" media="(max-width: 894px)" >
+                <img  id="foto_introducao" src="assets/Introdução/foto_introdução.png">
+            </picture>
+        </div>
+        <div id="Formacao">
+            <div id="linha_vertical_formacao" class="linha_vertical_main"></div>  
+            <h2 id="titulo_formacao">Formação</h2>
+                <div id="container_conteudo_formacao">
+                    <ul id="lista_formacoes">
+                        <li class="nome_curso">Engenharia de Software</li>
+                            <p class="info_curso" id="info_curso01"><strong>Bacharelado</strong> - UNIPÊ Centro Universitário de João Pessoa -</p>
+                            <p class="info_curso" id="info_curso02">Outubro de 2022 | Abril de 2026</p>
+                            <p class="info_curso" id="info_curso01_694px">                                    <!-- Este <p> pertence a responsividade do texto a partir da @media-694px-->
+                                <strong>Bacharelado</strong><br> UNIPÊ Centro Universitário de João Pessoa - 
+                            </p>
+                            <p class="info_curso" id="info_curso02_694px">Outubro de 2022 | Abril de 2026</p> <!-- Este <p> pertence a responsividade do texto a partir da @media-694px-->
+                            <p class="info_curso" id="info_curso01_544px">                                    <!-- Este <p> pertence a responsividade do texto a partir da @media-544px-->
+                                <strong>Bacharelado</strong><br> UNIPÊ Centro Universitário - <br>  
+                            </p>   
+                            <p class="info_curso" id="info_curso02_544px">Outubro de 2022 | Abril de 2026</p> <!-- Este <p> pertence a responsividade do texto a partir da @media-544px-->
+
+                        <li class="nome_curso" id="tecnologia_informacao">Tecnologia da Informação</li>
+                            <p class="info_curso"><strong>Técnico</strong> - Presidente João Goulart -</p>
+                            <p class="info_curso">Agosto de 2017 | Abril de 2020</p>
+                    </ul>
+                <div id="container_situacao_curso01">
+                    <p class="situacao_curso" id="situacao_curso01"><strong>Cursando</strong></p>
+                </div>
+                <div id="container_situacao_curso01_544px">
+                    <p class="situacao_curso" id="situacao_curso01"><strong>Cursando</strong></p>             <!-- Este <p> pertence a responsividade do texto a partir da @media-544px-->
+                </div>
+                <div id="container_situacao_curso02">
+                    <p class="situacao_curso" id="situacao_curso02"><strong>Concluído</strong></p>
+                </div>       
+            </div>
+        </div>
+        <div id="Sobre">
+            <div id="linha_vertical_sobre" class="linha_vertical_main"></div>
+            <h2 id="titulo_sobre">Sobre</h2>
+                <div id="container_conteudo_sobre">
+                        <ul id="lista_sobre">
+                            <li class="item_lista" id="graduacao_item">Graduação</li> 
+                                <p class="conteudo_lista" id="info_sobre01">Estou no 5° período do curso que tem sido uma "búsula" no meu desenvolvimento.</p>
+                                <p class="conteudo_lista" id="info_sobre01_774px">                          <!-- Este <p> pertence a responsividade do texto a partir da @media-774px-->
+                                    Estou no 5° período do curso que tem sido uma "búsula" no meu<br> desenvolvimento.
+                                </p>
+                                <p class="conteudo_lista" id="info_sobre01_664px">                          <!--Este <p> pertence a responsividade do texto a partir da @media-664px-->
+                                    Estou no 5° período do curso que tem sido uma "búsula"<br> no meu desenvolvimento.
+                                </p>
+                                <p class="conteudo_lista" id="info_sobre01_544px">                          <!--Este <p> pertence a responsividade do texto a partir da @media-544px-->
+                                    Estou no 5° período do curso que tem sido uma <br>"búsula" no meu desenvolvimento.
+                                </p>
+                            <li class="item_lista" id="hardSkills_item">Hard Skills</li>
+                                <p class="conteudo_lista" id="info_sobre02">JavaScript, Node.js, Git, MySQL, Figma, Angular, HTML e CSS.</p>
+                                <p class="conteudo_lista" id="info_sobre02_604px">                          <!--Este <p> pertence a responsividade do texto a partir da @media-604px--->
+                                    JavaScript, Node.js, Git, MySQL, Figma, Angular, HTML <br>e CSS. 
+                                </p>
+                                <p class="conteudo_lista" id="info_sobre02_534px">                          <!--Este <p> pertence a responsividade do texto a partir da @media-534px--->
+                                    JavaScript, Node.js, Git, MySQL, Figma, Angular,<br> HTML e CSS. 
+                                </p>
+                            <li class="item_lista" id="objetivos_item">Objetivos</li>
+                                <p class="conteudo_lista" id="info_sobre03">
+                                    Após me aprofundar nas tecnologias do front-end, pretendo expandir meu conhecimento<br> no back end com MySQL e 
+                                    TypeScript com Angular. 
+                                </p>
+                                <p class="conteudo_lista" id="info_sobre03_804px">                          <!--Este <p> pertence a responsividade do texto a partir da @media-804px-->
+                                    Após me aprofundar nas tecnologias do front-end, pretendo expandir<br> meu conhecimento no back end com MySQL, 
+                                    TypeScript e Java. 
+                                </p>
+                                <p class="conteudo_lista" id="info_sobre03_664px">                          <!--Este <p> pertence a responsividade do texto a partir da @media-664px-->
+                                    Após me aprofundar nas tecnologias do front-end, pretendo<br> expandir meu conhecimento no back end com<br> MySQL, 
+                                    TypeScript e Java. 
+                                </p>
+                                <p class="conteudo_lista" id="info_sobre03_594px">                          <!--Este <p> pertence a responsividade do texto a partir da @media-514px-->
+                                    Após me aprofundar nas tecnologias do front-end,<br> pretendo expandir meu conhecimento no back end<br> com MySQL, 
+                                    TypeScript e Java. 
+                                </p>                
+                                <p class="conteudo_lista" id="info_sobre03_514px">                          <!--Este <p> pertence a responsividade do texto a partir da @media-594px-->
+                                    Após me aprofundar nas tecnologias do<br> front-end, pretendo expandir meu conhecimento<br> no back end com MySQL, 
+                                    TypeScript e Java. 
+                                </p>
+                            <li class="item_lista" id="softSkills_item">Soft Skills</li>
+                                <p class="conteudo_lista" id="info_sobre04">Autodidatismo - Pensamento Crítico - Comunicação - Resolução de Problemas.</p>
+                                <p class="conteudo_lista" id="info_sobre04_774px">                          <!--Este <p> pertence a responsividade do texto a partir da @media-774px-->
+                                    Autodidatismo - Pensamento Crítico - Comunicação<br> Resolução de Problemas.
+                                </p>   
+                                <p class="conteudo_lista" id="info_sobre04_514px">                          <!--Este <p> pertence a responsividade do texto a partir da @media-514px-->
+                                    Autodidatismo - Pensamento Crítico <br>Comunicação Resolução de Problemas.
+                                </p>   
+                        </ul>    
+                </div> 
+        </div>
+            <div id="Projetos">
+            <div id="linha_vertical_projetos" class="linha_vertical_main"></div>
+            <h2 id="titulo_projeto">Projetos</h2>
+                <div id="container_projetos">
+                    <div class="card">    <!--Projeto01-->
+                        <h1 class="titulo_projeto">Em Breve</h1>
+                            <div class="container_img_card">
+                                <img class="foto_projeto" src="#">
+                            </div>  
+                            <div class="links_projeto">
+                                <a class="link_card_github" href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none"><img onMouseOver="exibirMensagemRepositorio01()" onmouseout="enibirMensagemRepositorio01()"  class="icone_card" src="assets/Projetos/github_card.svg" alt="Icone do GitHub"></a>
+                                <a class="link_card_deploy" href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none"><img onMouseOver="exibirMensagemProducao01()" onmouseout="enibirMensagemProducao01()"  class="icone_card" src="assets/Projetos/deploy_card.svg" alt="Icone de olho"></a>
+                            </div> 
+                                <div class="container_mensagens_Links_projeto">
+                                    <div class="container_mensagem_repositorio_projeto">
+                                        <i><p class="mensagem_links_projeto">Repositório do Projeto</p></i>
+                                    </div>
+                                    <div class="container_mensagem_producao_projeto">
+                                        <i><p class="mensagem_links_projeto">Projeto em Produção</p></i>
+                                    </div>
+                                </div>
+                            <div class="descricao_projeto">
+                                <p></p>
+                            </div>
+                            <div class="tec_projeto">
+                                <p></p>
+                            </div>   
+                    </div>
+                    <div class="card">     <!--Projeto02-->
+                        <h1 class="titulo_projeto">Em Breve</h1>
+                            <div class="container_img_card">
+                                <img class="foto_projeto" src="#">
+                            </div>  
+                            <div class="links_projeto">
+                                <a class="link_card_github" href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none"><img onMouseOver="exibirMensagemRepositorio02()" onmouseout="enibirMensagemRepositorio02()" class="icone_card" src="assets/Projetos/github_card.svg" alt="Icone do GitHub"></a>
+                                <a class="link_card_deploy" href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none"><img onMouseOver="exibirMensagemProducao02()" onmouseout="enibirMensagemProducao02()" class="icone_card" src="assets/Projetos/deploy_card.svg" alt="Icone de olho"></a>
+                            </div> 
+                                <div class="container_mensagens_Links_projeto">
+                                    <div class="container_mensagem_repositorio_projeto">
+                                        <i><p class="mensagem_links_projeto">Repositório do Projeto</p></i>
+                                    </div>
+                                    <div class="container_mensagem_producao_projeto">
+                                        <i><p class="mensagem_links_projeto">Projeto em Produção</p></i>
+                                    </div>
+                                </div>
+                            <div class="descricao_projeto">
+                                <p></p>
+                            </div>
+                            <div class="tec_projeto">
+                                <p></p>
+                            </div>   
+                    </div>
+                        <div class="card">   <!--Projeto03-->
+                        <h1 class="titulo_projeto">Em Breve</h1>
+                            <div class="container_img_card">
+                                <img class="foto_projeto" src="#">
+                            </div>  
+                            <div class="links_projeto">
+                                <a class="link_card_github" href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none"><img onMouseOver="exibirMensagemRepositorio03()" onmouseout="enibirMensagemRepositorio03()"class="icone_card" src="assets/Projetos/github_card.svg" alt="Icone do GitHub"></a>
+                                <a class="link_card_deploy" href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none"><img img onMouseOver="exibirMensagemProducao03()" onmouseout="enibirMensagemProducao03()" class="icone_card" src="assets/Projetos/deploy_card.svg" alt="Icone de olho"></a>
+                            </div> 
+                            <div class="container_mensagens_Links_projeto">
+                                <div class="container_mensagem_repositorio_projeto">
+                                    <i><p class="mensagem_links_projeto">Repositório do Projeto</p></i>
+                                </div>
+                                <div class="container_mensagem_producao_projeto">
+                                    <i><p class="mensagem_links_projeto">Projeto em Produção</p></i>
+                                </div>
+                            </div>
+                            <div class="descricao_projeto">
+                                <p></p>
+                            </div>
+                            <div class="tec_projeto">
+                                <p></p>
+                            </div>   
+                    </div>
+                </div> 
+            </div>
+        </main>
+    </section>     
+<script src="scriptWeb.js"></script>
+</body>
+</html>
