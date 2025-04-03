@@ -6,11 +6,8 @@ const caixaLinkedin = document.querySelector("#container_link_Linkedin");
 const caixaRepositorio = document.querySelectorAll(".container_mensagem_repositorio_projeto");
 const caixaProducao = document.querySelectorAll(".container_mensagem_producao_projeto");
 const projetosCard = document.querySelectorAll(".card");
-const caixaLinksExternos = document.querySelectorAll(".container_li");
 const linksProjeto = document.querySelectorAll(".icone_card");
-const janelaNavegador = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth; //Armazena tamanho da janela do navegador do cliente
-
-console.log(caixaLinksExternos[0]); /*Console.log feito a carater de teste */
+const janelaNavegador = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth; // Armazena as dimenções da tela do user
 
 
 function clickMenu() {   /*Função responsável por revelar e ocultar o menu lateral juntamente com a mudança de cor do botão */
@@ -33,18 +30,6 @@ main.addEventListener('click', function() { /*Função responsável por fechar o
         botaoMenu.style.color = "#FF6000"
     } 
 }) 
-
-/*caixaLinksExternos[0].addEventListener('mouseenter', function() { Compre a mesma função da função "exibirMensagemGithub()" com JS.
-    if (caixaMensagemLinksExternos[0].style.display != "block") {
-        caixaMensagemLinksExternos[0].style.display = "block"
-    } 
-
-});
-
-caixaLinksExternos[0].addEventListener('mouseout', function() {
-    caixaMensagemLinksExternos[0].style.display = "none"
-
-});   */
 
 function exibirMensagemGithub() {  /* Grupo de Funções que revelam e ocultam a mensagem dos links externos do MENU ao passar o mouse */
     caixaMensagemLinksExternos[0].style.display = "block" 
