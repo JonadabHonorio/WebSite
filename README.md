@@ -23,3 +23,9 @@
 
 ## <img alt="Icone-deploy" width="30" src="https://img.icons8.com/?size=100&id=34935&format=png&color=000000"/> Resultado
 
+
+https://github.com/user-attachments/assets/0dcb7b8b-8201-4d44-827f-b25a7086830b
+
+
+
+
