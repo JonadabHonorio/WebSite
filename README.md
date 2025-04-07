@@ -12,7 +12,7 @@
     <li>CSS</li>
   </ul></strong>
 
-## <img alt="Icone-Aprendizagem" width="30" src="https://img.icons8.com/?size=100&id=32628&format=png&color=000000"/> Conhecimentos aprimorados
+## <img alt="Icone-Aprendizagem" width="30" src="https://img.icons8.com/?size=100&id=32628&format=png&color=000000"/> Conhecimentos Aprimorados
   <strong><ul> 
     <li>Document Object Model</li>
     <li>Responsividade</li>
@@ -26,6 +26,9 @@
 Acesse o site pronto neste link: [Aqui](https://jonadabhonoriodeveloper.netlify.app/#Pai)
 
 https://github.com/user-attachments/assets/0dcb7b8b-8201-4d44-827f-b25a7086830b
+
+## <img alt="Icone-Upgrade" width="30" src="https://img.icons8.com/?size=100&id=31099&format=png&color=000000"/> Melhorias
+  <p>A landing page receberá uma versão construida utilizando o fremework Angular</p>
 
 
 
