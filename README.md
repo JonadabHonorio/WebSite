@@ -23,7 +23,7 @@
 
 ## <img alt="Icone-deploy" width="30" src="https://img.icons8.com/?size=100&id=34935&format=png&color=000000"/> Resultado
 
-Acesse o site pronto neste link: [Aqui](https://jonadabhonoriodeveloper.netlify.app/#Pai)
+Acesse o site pronto neste link: [Aqui](https://jonadabhonoriodeveloper.netlify.app/)
 
 https://github.com/user-attachments/assets/0dcb7b8b-8201-4d44-827f-b25a7086830b
 
